@@ -5,8 +5,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import HomePage from "./components/homePage";
 import Navbar from "./components/navbar";
-// import OfferPage from "./components/offer-page";
-// import Footer from "./components/footer";
+import FinancialJourneyBanner from "./components/financial-journey-banner";
+import Services from "./components/services";
 // import CorporateWellness from "./components/corporate-wellness";
 // import AboutUs from "./components/about-us";
 // import CTABanner from "./components/ctabanner";
@@ -25,8 +25,14 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/navbar" element={<Navbar />} />
-          {/* <Route path="/offer-page" element={<OfferPage />} />
-          <Route path="/footer" element={<Footer />} />
+          <Route
+            path="/financial-journey-banner"
+            element={<FinancialJourneyBanner />}
+          />
+          <Route path="/services" element={<Services />} />
+          {/* Uncomment the following routes as needed */}
+          {/* <Route path="/hero-page" element={<HeroPage />} /> */}
+          {/* <Route path="/footer" element={<Footer />} />
           <Route path="/corporate-wellness" element={<CorporateWellness />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/cta-banner" element={<CTABanner />} />
