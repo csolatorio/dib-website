@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-  font-family: 'Open Sans', 'Tenor Sans', 'Segoe UI', 'Roboto',
+  font-family: 'M PLUS 1p', 'Tenor Sans', 'Segoe UI', 'Roboto',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   line-height: 1.5;
@@ -26,20 +26,20 @@
 p{
   font-family: 'M PLUS 1p', sans-serif;
     /* font-size: 24px; */
-    line-height: 1.2;
-    color: #ffffff;
+    /* line-height: 1.2; */
+    /* color: #ffffff; */
 }
 a {
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 600;
   line-height: 1;
-  color: #ffffff;
+  /* color: #ffffff; */
 }
 
 body {
   margin: 0;
-  font-family: 'Open Sans', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

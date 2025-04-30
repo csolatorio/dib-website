@@ -1,0 +1,82 @@
+// components/Footer.tsx
+import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import Logo from "../assets/logo.png";
+
+const Footer: React.FC = () => {
+  return (
+    <footer className="bg-white border-t py-14 px-4 md:px-20">
+      <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-start space-y-10 md:space-y-0 md:space-x-12">
+        {/* Logo and Tagline */}
+        <div className="flex flex-col items-start space-y-2">
+          <div className="flex items-center space-x-2">
+            <img src={Logo} alt="Dibyendu Haldar Logo" className="h-24" />
+          </div>{" "}
+          <span className="text-2xl font-bold text-[#001A29]">
+            DIBYENDU HALDAR
+          </span>
+          <p className="text-sm text-[#001A29] font-semibold">
+            Your Partner in Financial Clarity & Growth.
+          </p>
+        </div>
+
+        {/* Quick Links */}
+        <div>
+          <h4 className="font-semibold text-[#001A29] mb-2">Quick Links</h4>
+          <ul className="space-y-1 text-[#001A29] text-sm">
+            <li>
+              <a href="#" className="hover:underline">
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Services
+              </a>
+            </li>
+            <li>
+              <a href="#" className="hover:underline">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Contact Info */}
+        <div>
+          <h4 className="font-semibold text-[#001A29] mb-2">Get in Touch</h4>
+          <p className="text-sm font-semibold text-[#001A29]">
+            dibyendu@pruadviser.com.sg
+          </p>
+          <p className="text-sm text-[#001A29]">+65 98393475</p>
+          <p className="text-sm text-[#001A29]">
+            1 Pasir Panjang Rd
+            <br />
+            Labrador Tower #05-01V
+            <br />
+            Singapore 118479
+          </p>
+
+          {/* Social Media Icons */}
+          <div className="flex space-x-4 mt-3">
+            <a href="#" className="text-[#001A29] hover:text-blue-800">
+              <FaFacebookF size={20} />
+            </a>
+            <a href="#" className="text-pink-600 hover:text-pink-800">
+              <FaInstagram size={22} />
+            </a>
+            <a href="#" className="text-black hover:text-gray-800">
+              <FaTiktok size={20} />
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

@@ -2,6 +2,10 @@
 import HeroPage from "../components/hero-page";
 import FinancialJourneyBanner from "../components/financial-journey-banner";
 import Services from "../components/services";
+import AboutMeCard from "../components/about-me";
+import ContactUs from "../components/contact-us";
+import Awards from "../components/awards-recognition";
+import Footer from "../components/footer";
 
 const HomePage = () => {
   return (
@@ -9,6 +13,10 @@ const HomePage = () => {
       <HeroPage />
       <FinancialJourneyBanner />
       <Services />
+      <AboutMeCard />
+      <Awards />
+      <ContactUs />
+      <Footer />
     </div>
   );
 };
