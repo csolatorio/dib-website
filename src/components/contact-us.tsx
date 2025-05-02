@@ -2,7 +2,10 @@ import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const ContactForm = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#002B3A]">
+    <section
+      className="flex justify-center items-center min-h-screen bg-[#002B3A]"
+      id="contact-us"
+    >
       <div className="bg-[#002B3A] text-white p-6 flex flex-col lg:flex-row justify-between items-start gap-12 max-w-6xl w-full">
         {/* Left Section */}
         <div className="max-w-md space-y-6">
@@ -69,7 +72,7 @@ const ContactForm = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

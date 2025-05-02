@@ -36,7 +36,9 @@ a {
   line-height: 1;
   /* color: #ffffff; */
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: 'Montserrat', 'Segoe UI', 'Roboto', 'Oxygen',

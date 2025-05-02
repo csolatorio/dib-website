@@ -30,7 +30,7 @@ const awards = [
 
 const AwardsRecognition: React.FC = () => {
   return (
-    <section className="py-20 px-4 max-w-7xl mx-auto">
+    <section className="py-20 px-4 max-w-7xl mx-auto" id="awards">
       <h2 className="text-lg font-medium text-[#001A29]">
         Awards & Recognition
       </h2>

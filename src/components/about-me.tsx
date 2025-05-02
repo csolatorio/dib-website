@@ -3,7 +3,7 @@ import dibPortrait from "../assets/dib-portrait.png";
 
 const AboutMeCard: React.FC = () => {
   return (
-    <section className="bg-[#002b3d] text-white py-16 px-4">
+    <section className="bg-[#002b3d] text-white py-16 px-4" id="about">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-12">
         {/* Left: Image in circular background */}
         <div className="flex-shrink-0">

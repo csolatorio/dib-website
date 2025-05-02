@@ -8,12 +8,12 @@ const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const links = [
-    "Home",
-    "About",
-    "Services",
-    "Awards",
-    "Testimonials",
-    "Contact",
+    { name: "Home", href: "#home" },
+    { name: "About", href: "#about" },
+    { name: "Services", href: "#services" },
+    { name: "Awards", href: "#awards" },
+    { name: "Testimonials", href: "#testimonials" },
+    { name: "Contact", href: "#contact-us" },
   ];
 
   return (
@@ -28,16 +28,21 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-6 text-sm font-light">
           <ul className="flex gap-10">
             {links.map((link) => (
-              <li key={link}>
-                <a href="#" className="hover:text-[#F2C98B] transition">
-                  {link}
+              <li key={link.name}>
+                <a href={link.href} className="hover:text-[#F2C98B] transition">
+                  {link.name}
                 </a>
               </li>
             ))}
           </ul>
-          <button className="bg-[#F2C98B] text-[#001A29] font-semibold px-8 py-3 rounded-lg ml-30 mr-20 hover:opacity-90 transition">
+          <a
+            href="https://wa.me/6598393475?text=Hi%20Dibyendu%2C%20I%20would%20like%20to%20book%20a%20call"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#F2C98B] text-[#001A29] font-semibold px-8 py-3 rounded-lg ml-30 mr-20 hover:opacity-90 transition"
+          >
             Book a Call
-          </button>
+          </a>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -56,13 +61,22 @@ const Navbar: React.FC = () => {
       {isOpen && (
         <div className="md:hidden absolute left-0 top-full w-full bg-[#001A29] px-6 py-4 shadow-lg flex flex-col text-sm font-light animate-slide-down space-y-3">
           {links.map((link) => (
-            <a key={link} href="#" className="hover:text-[#F2C98B] transition">
-              {link}
+            <a
+              key={link.name}
+              href={link.href}
+              className="hover:text-[#F2C98B] transition"
+            >
+              {link.name}
             </a>
           ))}
-          <button className="bg-[#F2C98B] text-[#001A29] font-semibold px-4 py-2 rounded-md">
+          <a
+            href="https://wa.me/6598393475?text=Hi%20Dibyendu%2C%20I%20would%20like%20to%20book%20a%20call"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-[#F2C98B] text-[#001A29] font-semibold px-4 py-2 rounded-md text-center"
+          >
             Book a Call
-          </button>
+          </a>
         </div>
       )}
     </nav>

@@ -43,7 +43,7 @@ const services = [
 
 const Services: React.FC = () => {
   return (
-    <section className="py-12 px-6 max-w-7xl mx-auto">
+    <section className="py-12 px-6 max-w-7xl mx-auto" id="services">
       <h2 className="text-2xl text-[#002C3D] font-medium mb-2">Services</h2>
       <h3 className="text-4xl font-normal mb-10 text-[#002C3D]">
         Services <span className="text-[#002C3D] font-bold">I Provide</span>
