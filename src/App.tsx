@@ -16,6 +16,7 @@ import Footer from "./components/footer";
 // import Locations from "./components/locations";
 // import GroupClass from "./components/group-classes";
 import ContactUs from "./components/contact-us";
+import TestimonialsCarousel from "./components/testimonials";
 // import BookBoxingClass from "./components/book-now";
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path="/about-me" element={<About />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/awards-recognition" element={<Awards />} />
+          <Route path="/testimonials" element={<TestimonialsCarousel />} />
           <Route path="/footer" element={<Footer />} />
           {/* Uncomment the following routes as needed */}
           {/* <Route path="/hero-page" element={<HeroPage />} /> */}

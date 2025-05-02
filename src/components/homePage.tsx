@@ -6,6 +6,7 @@ import AboutMeCard from "../components/about-me";
 import ContactUs from "../components/contact-us";
 import Awards from "../components/awards-recognition";
 import Footer from "../components/footer";
+import TestimonialsCarousel from "../components/testimonials";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
       <Services />
       <AboutMeCard />
       <Awards />
+      <TestimonialsCarousel />
       <ContactUs />
       <Footer />
     </div>

@@ -22,7 +22,8 @@ const HeroPage = () => {
             Your Partner in Financial Confidence
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
-            Personalized financial planning for life’s big decisions.
+            Representing Prudential Assurance Company Singapore. Personalized
+            financial planning for life’s big decisions.
           </p>
           <div className="flex justify-start mt-10">
             <button className="bg-[#F2C98B] text-black font-semibold px-10 py-4 rounded-lg hover:bg-[#ddb978] transition">
