@@ -1,10 +1,5 @@
 // components/Footer.tsx
-import {
-  FaFacebookF,
-  FaInstagram,
-  FaLinkedinIn,
-  FaTiktok,
-} from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
 const Footer: React.FC = () => {
