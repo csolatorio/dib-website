@@ -7,6 +7,7 @@ import ContactUs from "../components/contact-us";
 import Awards from "../components/awards-recognition";
 import Footer from "../components/footer";
 import TestimonialsCarousel from "../components/testimonials";
+import NewsletterSignup from "../components/newsletter";
 
 const HomePage = () => {
   return (
@@ -18,6 +19,7 @@ const HomePage = () => {
       <Awards />
       <TestimonialsCarousel />
       <ContactUs />
+      <NewsletterSignup />
       <Footer />
     </div>
   );

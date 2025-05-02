@@ -17,8 +17,8 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className="bg-[#001A29] text-white px-6 py-4 relative z-50 shadow-md">
-      <div className="flex items-center justify-between md:gap-6">
+    <nav className="bg-[#001A29] text-white px-6 py-4 relative z-50 shadow-md ">
+      <div className="flex items-center justify-between md:gap-6 px-6 max-w-7xl mx-auto">
         {/* Logo */}
         <a href="/" className="flex items-center">
           <img src={Logo} alt="Logo" className="h-15 w-auto object-contain" />

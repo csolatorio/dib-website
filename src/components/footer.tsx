@@ -1,5 +1,10 @@
 // components/Footer.tsx
-import { FaFacebookF, FaInstagram, FaTiktok } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaTiktok,
+} from "react-icons/fa";
 import Logo from "../assets/logo.png";
 
 const Footer: React.FC = () => {
@@ -63,14 +68,22 @@ const Footer: React.FC = () => {
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 mt-3">
-            <a href="#" className="text-[#001A29] hover:text-blue-800">
+            <a
+              href="https://www.facebook.com/dibyendu.haldar.73/"
+              className="text-[#001A29] hover:text-blue-800"
+              target="_blank"
+            >
               <FaFacebookF size={20} />
             </a>
             <a href="#" className="text-pink-600 hover:text-pink-800">
               <FaInstagram size={22} />
             </a>
-            <a href="#" className="text-black hover:text-gray-800">
-              <FaTiktok size={20} />
+            <a
+              href="https://www.linkedin.com/in/dibyendu-haldar-forlife/"
+              className="text-black hover:text-gray-800"
+              target="_blank"
+            >
+              <FaLinkedinIn size={20} />
             </a>
           </div>
         </div>
