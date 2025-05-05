@@ -1,5 +1,5 @@
 import React from "react";
-import dibPortrait from "../assets/dib-portrait.png";
+import dibPortrait from "../assets/dib.png";
 
 const AboutMeCard: React.FC = () => {
   return (
