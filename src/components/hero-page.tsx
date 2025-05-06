@@ -16,7 +16,7 @@ const HeroPage = () => {
       <div className="relative z-10 flex items-center h-full px-4 sm:px-6 md:px-10 py-12 px-6 max-w-7xl mx-auto">
         <div className="w-full max-w-[90%] sm:max-w-xl space-y-4 text-left">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-            DIBYENDU HALDAR
+            Making a Difference to your Financial Future
           </h1>
           <p className="text-2xl sm:text-xl md:text-3xl font-medium">
             Your Partner in Financial Confidence
