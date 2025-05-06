@@ -26,9 +26,14 @@ const HeroPage = () => {
             financial planning for life’s big decisions.
           </p>
           <div className="flex justify-start mt-10">
-            <button className="bg-[#F2C98B] text-black font-semibold px-10 py-4 rounded-lg hover:bg-[#ddb978] transition">
+            <a
+              href="https://wa.me/6598393475?text=Hi%20Dibyendu%2C%20I%20would%20like%20to%20book%20a%20call"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#F2C98B] text-black font-semibold px-10 py-4 rounded-lg hover:bg-[#ddb978] transition"
+            >
               Let’s Talk
-            </button>
+            </a>
           </div>
         </div>
       </div>
