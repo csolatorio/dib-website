@@ -13,6 +13,7 @@ const Navbar: React.FC = () => {
     { name: "Services", href: "#services" },
     { name: "Awards", href: "#awards" },
     { name: "Testimonials", href: "#testimonials" },
+    { name: "Media", href: "#media" },
     { name: "Contact", href: "#contact-us" },
   ];
 
@@ -36,7 +37,7 @@ const Navbar: React.FC = () => {
             ))}
           </ul>
           <a
-            href="https://wa.me/6598393475?text=Hi%20Dibyendu%2C%20I%20would%20like%20to%20book%20a%20call"
+            href="https://calendly.com/dib-haldar/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#F2C98B] text-[#001A29] font-semibold px-8 py-3 rounded-lg ml-30 mr-20 hover:opacity-90 transition"
@@ -70,7 +71,7 @@ const Navbar: React.FC = () => {
             </a>
           ))}
           <a
-            href="https://wa.me/6598393475?text=Hi%20Dibyendu%2C%20I%20would%20like%20to%20book%20a%20call"
+            href="https://calendly.com/dib-haldar/30min"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#F2C98B] text-[#001A29] font-semibold px-4 py-2 rounded-md text-center"

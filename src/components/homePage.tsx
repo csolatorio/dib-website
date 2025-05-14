@@ -4,7 +4,7 @@ import FinancialJourneyBanner from "../components/financial-journey-banner";
 import Services from "../components/services";
 import AboutMeCard from "../components/about-me";
 import ContactUs from "../components/contact-us";
-import Awards from "../components/awards-recognition";
+// import Awards from "../components/awards-recognition";
 import Footer from "../components/footer";
 import TestimonialsCarousel from "../components/testimonials";
 import NewsletterSignup from "../components/newsletter";
@@ -16,7 +16,7 @@ const HomePage = () => {
       <FinancialJourneyBanner />
       <Services />
       <AboutMeCard />
-      <Awards />
+      {/* <Awards /> */}
       <TestimonialsCarousel />
       <ContactUs />
       <NewsletterSignup />

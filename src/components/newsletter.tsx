@@ -6,7 +6,7 @@ const NewsletterSignup = () => {
       </h2>
       <p className="text-center text-sm mb-6 text-[#001A29]">
         Subscribe to our newsletter for expert financial strategies and market
-        insights from Dibyendu Haldar at Prudential Life Singapore.
+        insights from Dibyendu Haldar.
       </p>
       <form className="flex flex-col space-y-4">
         <input
@@ -16,7 +16,8 @@ const NewsletterSignup = () => {
         />
         <label className="flex items-center text-sm">
           <input type="checkbox" className="mr-2" />
-          Yes, I consent to Prudential Life Sinagpore policies
+          Yes, I consent to receive marketing communications from Dibyendu
+          Haldar.
         </label>
         <button
           type="submit"
