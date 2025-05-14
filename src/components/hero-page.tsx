@@ -28,7 +28,7 @@ const HeroPage = () => {
           </p>
           <div className="flex justify-start mt-10">
             <a
-              href="https://dibyenduhaldar.com/"
+              href="https://calendly.com/dib-haldar/30min"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#F2C98B] text-black font-semibold px-10 py-4 rounded-lg hover:bg-[#ddb978] transition"
