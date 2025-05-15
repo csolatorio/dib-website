@@ -11,6 +11,8 @@ import NewsletterSignup from "../components/newsletter";
 
 import dibPortrait from "../assets/dib.png";
 
+import { Link } from "react-router-dom";
+
 import {
   FaClipboardList,
   FaShieldAlt,
@@ -107,12 +109,12 @@ const HomePage = () => {
               opportunities that bring peace of mind and lasting results.
             </p>
             <div className="flex justify-start mt-10">
-              <a
-                href="/about-me"
+              <Link
+                to="/about-me"
                 className="bg-[#F2C98B] text-black font-semibold px-10 py-4 rounded-lg hover:bg-[#ddb978] transition"
               >
                 Know more
-              </a>
+              </Link>
             </div>
           </div>
         </div>
