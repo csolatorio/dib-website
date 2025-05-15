@@ -30,7 +30,7 @@ const ContactForm = () => {
             </div>
             <div className="flex items-center gap-3">
               <FaEnvelope className="mt-1 text-[#F2C98B] h-8 w-auto" />
-              <p className="text-xl">dibyendu@pruadviser.com.sg</p>
+              <p className="text-xl">hello@dibyenduhaldar.com</p>
             </div>
           </div>
         </div>
@@ -40,28 +40,51 @@ const ContactForm = () => {
           <p className="text-xl text-gray-200 mb-10">
             Have questions or ready to get started? I’d love to hear from you.
           </p>
-          <form className="space-y-4">
+          <form
+            action="https://formsubmit.co/hello@dibyenduhaldar.com"
+            method="POST"
+            className="space-y-4"
+          >
+            {/* Optional: Customize email subject */}
+            <input
+              type="hidden"
+              name="_subject"
+              value="New Contact Form Submission!"
+            />
+            {/* Optional: Disable captcha */}
+            <input type="hidden" name="_captcha" value="false" />
+            {/* Optional: Redirect after submit */}
+            {/* <input type="hidden" name="_next" value="https://your-website.com/thank-you" /> */}
+
             <div className="flex gap-4">
               <input
                 type="text"
+                name="firstName"
                 placeholder="First name"
                 className="w-1/2 p-2 rounded bg-gray-100 text-black"
+                required
               />
               <input
                 type="text"
+                name="lastName"
                 placeholder="Last name"
                 className="w-1/2 p-2 rounded bg-gray-100 text-black"
+                required
               />
             </div>
             <input
               type="email"
+              name="email"
               placeholder="Email"
               className="w-full p-2 rounded bg-gray-100 text-black"
+              required
             />
             <textarea
+              name="message"
               placeholder="Message"
               rows={4}
               className="w-full p-2 rounded bg-gray-100 text-black"
+              required
             ></textarea>
             <button
               type="submit"

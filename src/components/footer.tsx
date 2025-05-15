@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
         <div>
           <h4 className="font-semibold text-[#001A29] mb-2">Get in Touch</h4>
           <p className="text-sm font-semibold text-[#001A29]">
-            dibyendu@pruadviser.com.sg
+            hello@dibyenduhaldar.com
           </p>
           <p className="text-sm text-[#001A29]">+65 98393475</p>
           <p className="text-sm text-[#001A29]">

@@ -62,7 +62,7 @@ const awards = [
   },
   {
     image: award9,
-    title: "MDRT Ambassador & Mentor",
+    title: "Court of the Table",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
