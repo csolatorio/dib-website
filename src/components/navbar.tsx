@@ -8,10 +8,10 @@ const Navbar: React.FC = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   const links = [
-    { name: "Home", href: "#home" },
-    { name: "About", href: "#about" },
-    { name: "Services", href: "#services" },
-    { name: "Awards", href: "#awards" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about-me" },
+    { name: "Services", href: "/services" },
+    { name: "Awards", href: "/awards-recognition" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Media", href: "#media" },
     { name: "Contact", href: "#contact-us" },
