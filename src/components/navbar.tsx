@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Menu, X } from "lucide-react";
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,18 +22,30 @@ const Navbar: React.FC = () => {
     <nav className="bg-[#001A29] text-white px-6 py-4 relative z-50 shadow-md ">
       <div className="flex items-center justify-between md:gap-6 px-6 max-w-7xl mx-auto">
         {/* Logo */}
-        <a href="/" className="flex items-center">
+        <Link to="/" className="flex items-center">
           <img src={Logo} alt="Logo" className="h-15 w-auto object-contain" />
-        </a>
+        </Link>
 
         {/* Desktop Navigation + CTA */}
         <div className="hidden md:flex items-center gap-6 text-sm font-light">
           <ul className="flex gap-10">
             {links.map((link) => (
               <li key={link.name}>
-                <a href={link.href} className="hover:text-[#F2C98B] transition">
-                  {link.name}
-                </a>
+                {link.href.startsWith("#") ? (
+                  <a
+                    href={link.href}
+                    className="hover:text-[#F2C98B] transition"
+                  >
+                    {link.name}
+                  </a>
+                ) : (
+                  <Link
+                    to={link.href}
+                    className="hover:text-[#F2C98B] transition"
+                  >
+                    {link.name}
+                  </Link>
+                )}
               </li>
             ))}
           </ul>
@@ -61,15 +74,27 @@ const Navbar: React.FC = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="md:hidden absolute left-0 top-full w-full bg-[#001A29] px-6 py-4 shadow-lg flex flex-col text-sm font-light animate-slide-down space-y-3">
-          {links.map((link) => (
-            <a
-              key={link.name}
-              href={link.href}
-              className="hover:text-[#F2C98B] transition"
-            >
-              {link.name}
-            </a>
-          ))}
+          {links.map((link) =>
+            link.href.startsWith("#") ? (
+              <a
+                key={link.name}
+                href={link.href}
+                className="hover:text-[#F2C98B] transition"
+                onClick={() => setIsOpen(false)}
+              >
+                {link.name}
+              </a>
+            ) : (
+              <Link
+                key={link.name}
+                to={link.href}
+                className="hover:text-[#F2C98B] transition"
+                onClick={() => setIsOpen(false)}
+              >
+                {link.name}
+              </Link>
+            )
+          )}
           <a
             href="https://calendly.com/dib-haldar/30min"
             target="_blank"
