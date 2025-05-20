@@ -1,5 +1,6 @@
 import React from "react";
 import dibPortrait from "../assets/dib.png";
+import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 import Navbar from "./navbar";
 import Footer from "../components/footer";
@@ -90,6 +91,25 @@ const AboutMeCard: React.FC = () => {
               connect and explore how I can assist you in achieving your
               financial aspirations.
             </p>
+          </div>
+          <div className="flex space-x-4 mt-7">
+            <a
+              href="https://www.facebook.com/dibyendu.haldar.73/"
+              className="text-white hover:text-blue-800"
+              target="_blank"
+            >
+              <FaFacebookF size={30} />
+            </a>
+            <a href="#" className="text-white hover:text-pink-800">
+              <FaInstagram size={30} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dibyendu-haldar-forlife/"
+              className="text-white hover:text-blue-800"
+              target="_blank"
+            >
+              <FaLinkedinIn size={30} />
+            </a>
           </div>
         </div>
       </section>

@@ -270,7 +270,11 @@ const HomePage = () => {
               {/* Optional: Disable captcha */}
               <input type="hidden" name="_captcha" value="false" />
               {/* Optional: Redirect after submit */}
-              {/* <input type="hidden" name="_next" value="https://your-website.com/thank-you" /> */}
+              <input
+                type="hidden"
+                name="_next"
+                value="https://dibyenduhaldar.com/"
+              />
 
               <div className="flex gap-4">
                 <input
