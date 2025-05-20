@@ -1,6 +1,7 @@
 // components/Footer.tsx
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import Logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Footer: React.FC = () => {
   return (
@@ -24,24 +25,29 @@ const Footer: React.FC = () => {
           <h4 className="font-semibold text-[#001A29] mb-2">Quick Links</h4>
           <ul className="space-y-1 text-[#001A29] text-sm">
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/" className="hover:underline">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/about-me" className="hover:underline">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/services" className="hover:underline">
                 Services
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <Link to="/media" className="hover:underline">
+                Media
+              </Link>
+            </li>
+            <li>
+              <Link to="/contact-us" className="hover:underline">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

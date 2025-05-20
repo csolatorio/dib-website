@@ -1,5 +1,8 @@
 import React from "react";
+
 import Navbar from "./navbar";
+import Footer from "../components/footer";
+
 import {
   FaClipboardList,
   FaShieldAlt,
@@ -73,6 +76,7 @@ const Services: React.FC = () => {
           ))}
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

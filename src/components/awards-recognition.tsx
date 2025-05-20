@@ -10,6 +10,7 @@ import award8 from "../assets/award8.png";
 import award9 from "../assets/award9.png";
 
 import Navbar from "./navbar";
+import Footer from "../components/footer";
 
 const awards = [
   {
@@ -108,6 +109,7 @@ const AwardsRecognition: React.FC = () => {
           ))}
         </div>
       </section>
+      <Footer />
     </div>
   );
 };

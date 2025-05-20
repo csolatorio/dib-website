@@ -2,6 +2,7 @@ import React from "react";
 import dibPortrait from "../assets/dib.png";
 
 import Navbar from "./navbar";
+import Footer from "../components/footer";
 
 const AboutMeCard: React.FC = () => {
   return (
@@ -92,6 +93,7 @@ const AboutMeCard: React.FC = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
