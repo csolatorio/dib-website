@@ -197,7 +197,7 @@ const HomePage = () => {
 
           {/* Right: Text content */}
           <div className="text-center md:text-left max-w-2xl">
-            <p className="text-lg text-[#c3d5df] mb-2">About Me</p>
+            {/* <p className="text-lg text-[#c3d5df] mb-2">About Me</p> */}
             <h2 className="text-4xl font-bold text-white mb-4">
               Who is <span className="text-[#f9c97b]">DIBYENDU HALDAR?</span>
             </h2>
