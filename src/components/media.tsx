@@ -20,7 +20,7 @@ const socialMediaData = [
     name: "LinkedIN",
     icon: <FaLinkedinIn className="text-sky-400" />,
     followers: "1.7K",
-    description: "Join the conversation on Twitter",
+    description: "Follow us on LinkedIN for latest updates",
     link: "https://www.linkedin.com/in/dibyendu-haldar-forlife/",
   },
   {
