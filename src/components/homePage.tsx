@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import HeroPage from "../components/hero-page";
 import FinancialJourneyBanner from "../components/financial-journey-banner";
 // import Services from "../components/services";
