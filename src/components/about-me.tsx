@@ -1,6 +1,11 @@
 import React from "react";
 import dibPortrait from "../assets/dib.png";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
 
 import Navbar from "./navbar";
 import Footer from "../components/footer";
@@ -113,6 +118,13 @@ const AboutMeCard: React.FC = () => {
               target="_blank"
             >
               <FaLinkedinIn size={30} />
+            </a>
+            <a
+              href="https://www.youtube.com/@FINWIZWithDibyendu"
+              className="text-white hover:text-red-800"
+              target="_blank"
+            >
+              <FaYoutube size={30} />
             </a>
           </div>
         </div>

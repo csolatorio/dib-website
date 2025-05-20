@@ -1,5 +1,10 @@
 // components/Footer.tsx
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 
@@ -89,6 +94,13 @@ const Footer: React.FC = () => {
               target="_blank"
             >
               <FaLinkedinIn size={20} />
+            </a>
+            <a
+              href="https://www.youtube.com/@FINWIZWithDibyendu"
+              className="text-black hover:text-gray-800"
+              target="_blank"
+            >
+              <FaYoutube size={20} />
             </a>
           </div>
         </div>

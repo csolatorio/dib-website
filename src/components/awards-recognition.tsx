@@ -15,7 +15,7 @@ import Footer from "../components/footer";
 const awards = [
   {
     image: award1,
-    title: "Top 4 Private Wealth Consultant – 2017 onwards",
+    title: "Top 4 Private Wealth Consultant – from 2017 onwards",
     description:
       "Recognized among Singapore’s top financial professionals for performance and client impact.",
   },
@@ -33,13 +33,13 @@ const awards = [
   },
   {
     image: award4,
-    title: "MDRT Ambassador & Mentor",
+    title: "Court of the Table Recognition",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award5,
-    title: "New Silver Award",
+    title: "Premier Silver Award",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },

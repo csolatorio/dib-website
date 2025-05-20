@@ -35,7 +35,7 @@ const socialMediaData = [
     icon: <FaYoutube className="text-red-600" />,
     followers: "20K",
     description: "Subscribe to our channel on YouTube",
-    link: "https://youtube.com",
+    link: "https://www.youtube.com/@FINWIZWithDibyendu",
   },
 ];
 
