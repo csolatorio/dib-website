@@ -22,9 +22,13 @@ const HeroPage = () => {
             Your Partner in Financial Confidence
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
-            Representing Prudential Assurance Company Singapore. Personalized
-            financial planning for life’s big decisions. Protecting what you’ve
-            built. Planning for what’s ahead.
+            Representing Prudential Assurance Company Singapore.
+            <br />
+            Plan smart. Live fully.
+            <br /> From securing your legacy with an estate planner, structuring
+            your future with a will planner, to growing your assets with a
+            wealth planner—we help you protect what you’ve built and prepare for
+            what’s ahead.
           </p>
           <div className="flex justify-start mt-10">
             <a
