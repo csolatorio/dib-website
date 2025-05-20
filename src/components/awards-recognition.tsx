@@ -14,7 +14,7 @@ import Navbar from "./navbar";
 const awards = [
   {
     image: award1,
-    title: "Top 4 Private Wealth Consultant – 2022",
+    title: "Top 4 Private Wealth Consultant – 2017 onwards",
     description:
       "Recognized among Singapore’s top financial professionals for performance and client impact.",
   },
