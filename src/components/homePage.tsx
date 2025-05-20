@@ -110,9 +110,12 @@ const HomePage = () => {
       <HeroPage />
       <FinancialJourneyBanner />
       <section className="py-12 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto relative">
-        <h3 className="text-3xl sm:text-4xl font-semibold text-center text-[#F2C98B] mb-10">
+        <h3 className="text-3xl sm:text-4xl font-bold text-center text-[#001A29] mb-2">
           Services
         </h3>
+        <h2 className="text-2xl font-medium text-[#001A29] mb-10 text-center">
+          Don't Just Save—Build. Here's What You Need to Know.
+        </h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
           {services.map((service, idx) => (
             <div
