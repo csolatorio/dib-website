@@ -21,9 +21,9 @@ const AboutMeCard: React.FC = () => {
             </div>
 
             {/* Text content */}
-            <p className="text-lg text-[#c3d5df] mb-2 text-center md:text-left">
+            {/* <p className="text-lg text-[#c3d5df] mb-2 text-center md:text-left">
               About Me
-            </p>
+            </p> */}
             <h2 className="text-4xl font-bold text-white mb-4 text-center md:text-left">
               Who is <span className="text-[#f9c97b]">DIBYENDU HALDAR?</span>
             </h2>

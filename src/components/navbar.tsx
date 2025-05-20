@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
     { name: "Awards", href: "/awards-recognition" },
     { name: "Testimonials", href: "#testimonials" },
     { name: "Media", href: "/media" },
-    { name: "Contact", href: "#contact-us" },
+    { name: "Contact", href: "/contact-us" },
   ];
 
   // Handler to add effect on click
