@@ -258,9 +258,8 @@ const HomePage = () => {
               Have questions or ready to get started? I’d love to hear from you.
             </p>
             <form
-              action="https://formsubmit.co/hello@dibyenduhaldar.com"
+              action="https://formsubmit.co/dib.haldar@gmail.com"
               method="POST"
-              className="space-y-4"
             >
               {/* Optional: Customize email subject */}
               <input
