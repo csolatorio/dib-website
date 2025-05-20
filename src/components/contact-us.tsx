@@ -33,6 +33,16 @@ const ContactForm = () => {
                 <FaEnvelope className="mt-1 text-[#F2C98B] h-8 w-auto" />
                 <p className="text-xl">hello@dibyenduhaldar.com</p>
               </div>
+              <div className="flex items-center gap-3">
+                <a
+                  href="https://calendly.com/dib-haldar/30min"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-[#F2C98B] text-[#001A29] font-semibold px-8 py-4 rounded-lg mt-10 hover:opacity-90 transition"
+                >
+                  Schedule an Appointment
+                </a>
+              </div>
             </div>
           </div>
 
