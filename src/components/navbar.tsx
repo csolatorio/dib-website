@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
               const isActive = activeEffect === link.name;
               return (
                 <li key={link.name}>
-                  {link.href.startsWith("#") ? (
+                  {link.href.startsWith(" ") ? (
                     <a
                       href={link.href}
                       className={`hover:text-[#F2C98B] transition ${
@@ -92,7 +92,7 @@ const Navbar: React.FC = () => {
         <div className="md:hidden absolute left-0 top-full w-full bg-[#001A29] px-6 py-4 shadow-lg flex flex-col text-sm font-light animate-slide-down space-y-3">
           {links.map((link) => {
             const isActive = activeEffect === link.name;
-            return link.href.startsWith("#") ? (
+            return link.href.startsWith(" ") ? (
               <a
                 key={link.name}
                 href={link.href}
