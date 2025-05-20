@@ -100,7 +100,11 @@ const AboutMeCard: React.FC = () => {
             >
               <FaFacebookF size={30} />
             </a>
-            <a href="#" className="text-white hover:text-pink-800">
+            <a
+              href="https://www.instagram.com/financewithdib/"
+              className="text-white hover:text-pink-800"
+              target="_blank"
+            >
               <FaInstagram size={30} />
             </a>
             <a

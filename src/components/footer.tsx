@@ -76,7 +76,11 @@ const Footer: React.FC = () => {
             >
               <FaFacebookF size={20} />
             </a>
-            <a href="#" className="text-pink-600 hover:text-pink-800">
+            <a
+              href="https://www.instagram.com/financewithdib/"
+              className="text-pink-600 hover:text-pink-800"
+              target="_blank"
+            >
               <FaInstagram size={22} />
             </a>
             <a

@@ -26,9 +26,9 @@ const socialMediaData = [
   {
     name: "Instagram",
     icon: <FaInstagram className="text-pink-500" />,
-    followers: "15K",
+    followers: "362",
     description: "See what we're up to on Instagram",
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/financewithdib/",
   },
   {
     name: "YouTube",
