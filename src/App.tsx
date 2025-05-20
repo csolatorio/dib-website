@@ -17,7 +17,7 @@ import Footer from "./components/footer";
 // import GroupClass from "./components/group-classes";
 import ContactUs from "./components/contact-us";
 import TestimonialsCarousel from "./components/testimonials";
-
+import Medias from "./components/media";
 import NewsletterSignup from "./components/newsletter";
 // import BookBoxingClass from "./components/book-now";
 
@@ -36,6 +36,12 @@ function App() {
           <Route path="/about-me" element={<About />} />
           <Route path="/contact-us" element={<ContactUs />} />
           <Route path="/awards-recognition" element={<Awards />} />
+          <Route path="/media" element={<Medias />} />
+          {/* Uncomment the following routes as needed */}
+          {/* <Route path="/services" element={<Services />} /> */}
+          {/* <Route path="/about-me" element={<About />} /> */}
+          {/* <Route path="/contact-us" element={<ContactUs />} /> */}
+          {/* <Route path="/awards-recognition" element={<Awards />} /> */}
           <Route path="/testimonials" element={<TestimonialsCarousel />} />
           <Route path="/newsletter" element={<NewsletterSignup />} />
           <Route path="/footer" element={<Footer />} />

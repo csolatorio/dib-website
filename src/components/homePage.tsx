@@ -61,10 +61,13 @@ const HomePage = () => {
       <HeroPage />
       <FinancialJourneyBanner />
       <section className="py-12 px-6 max-w-7xl mx-auto">
-        {/* <h2 className="text-2xl text-[#002C3D]  font-medium mb-2">Services</h2> */}
-        <h3 className="text-4xl font-normal mb-10 text-[#002C3D] text-center">
+        {/*  */}
+        <h3 className="text-4xl font-bold mb-2 text-[#002C3D] text-center">
           Services
         </h3>
+        <h2 className="text-2xl text-[#002C3D]  text-center font-medium mb-10">
+          Don't Just Save—Build. Here's What You Need to Know.
+        </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, idx) => (
             <div

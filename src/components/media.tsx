@@ -1,91 +1,70 @@
-import React from "react";
+import {
+  FaFacebookF,
+  FaLinkedinIn,
+  FaInstagram,
+  FaYoutube,
+} from "react-icons/fa";
+import Navbar from "./navbar";
 
-import award1 from "../assets/award1.png";
-import award2 from "../assets/award2.png";
-import award3 from "../assets/award3.png";
-import award4 from "../assets/award4.png";
-import award5 from "../assets/award5.png";
-import award6 from "../assets/award6.jpg";
-import award7 from "../assets/award7.png";
-
-const awards = [
+const socialMediaData = [
   {
-    image: award1,
-    title: "Top 4 Private Wealth Consultant – 2022",
-    description:
-      "Recognized among Singapore’s top financial professionals for performance and client impact.",
+    name: "Facebook",
+    icon: <FaFacebookF className="text-blue-600" />,
+    followers: "1K",
+    description: "Follow us on Facebook for latest updates",
+    link: "https://www.facebook.com/dibyendu.haldar.73/",
   },
   {
-    image: award2,
-    title: "Platinum Life Club Award",
-    description:
-      "Honoring excellence in delivering long-term financial value and service to clients.",
+    name: "LinkedIN",
+    icon: <FaLinkedinIn className="text-sky-400" />,
+    followers: "1.7K",
+    description: "Join the conversation on Twitter",
+    link: "https://www.linkedin.com/in/dibyendu-haldar-forlife/",
   },
   {
-    image: award3,
-    title: "Premier Award Qualifier",
-    description:
-      "Earned for consistent performance, client satisfaction, and service excellence.",
+    name: "Instagram",
+    icon: <FaInstagram className="text-pink-500" />,
+    followers: "15K",
+    description: "See what we're up to on Instagram",
+    link: "https://instagram.com",
   },
   {
-    image: award4,
-    title: "MDRT Ambassador & Mentor",
-    description:
-      "Guiding the next generation of advisors while upholding global professional standards.",
-  },
-  {
-    image: award5,
-    title: "MDRT Ambassador & Mentor",
-    description:
-      "Guiding the next generation of advisors while upholding global professional standards.",
-  },
-  {
-    image: award6,
-    title: "MDRT Ambassador & Mentor",
-    description:
-      "Guiding the next generation of advisors while upholding global professional standards.",
-  },
-  {
-    image: award7,
-    title: "MDRT Ambassador & Mentor",
-    description:
-      "Guiding the next generation of advisors while upholding global professional standards.",
+    name: "YouTube",
+    icon: <FaYoutube className="text-red-600" />,
+    followers: "20K",
+    description: "Subscribe to our channel on YouTube",
+    link: "https://youtube.com",
   },
 ];
 
-const MediaGallery: React.FC = () => {
+export default function SocialMedia() {
   return (
-    <section className="py-20 px-4 max-w-7xl mx-auto" id="media-gallery">
-      <h2 className="text-lg font-medium text-[#001A29]">
-        Awards & Recognition
-      </h2>
-      <h3 className="text-3xl font-medium mt-2 mb-8 text-[#001A29]">
-        A Journey Marked by{" "}
-        <span className="text-[#001A29] font-bold">Excellence and Trust</span>
-      </h3>
+    <div className="w-full min-h-screen bg-[#002b3d] text-white">
+      <Navbar />
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        {awards.map((award, index) => (
-          <div
-            key={index}
-            className="bg-[#F4C381] rounded-xl p-4 shadow-md flex flex-col"
-          >
-            <div className="mb-4 flex justify-center">
-              <img
-                src={award.image}
-                alt={award.title}
-                className="h-[200px] object-cover rounded-md"
-              />
-            </div>
-            <h4 className="font-bold text-sm mb-2 text-[#001A29]">
-              {award.title}
-            </h4>
-            <p className="text-sm text-[#001A29]">{award.description}</p>
-          </div>
-        ))}
+      <div className="max-w-5xl mx-auto py-10 px-4">
+        <h2 className="text-3xl font-bold text-center mb-8">Follow Us</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {socialMediaData.map((platform) => (
+            <a
+              key={platform.name}
+              href={platform.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center text-center transition-transform hover:scale-105"
+            >
+              <div className="text-4xl mb-3">{platform.icon}</div>
+              <h3 className="text-xl font-semibold">{platform.name}</h3>
+              <p className="text-gray-600 text-sm mt-1">
+                {platform.description}
+              </p>
+              <span className="mt-3 text-sm font-medium text-gray-500">
+                {platform.followers} Followers
+              </span>
+            </a>
+          ))}
+        </div>
       </div>
-    </section>
+    </div>
   );
-};
-
-export default MediaGallery;
+}
