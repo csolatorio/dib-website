@@ -32,11 +32,34 @@ const services = [
     description:
       "WE CREATE personalized, all-encompassing financial plans that adapt to your goals, lifestyle, and life stages—from budgeting to investment, estate planning, and more.",
     features: [
-      "Personalized Budgeting Plans",
-      "Investment Portfolio Alignment",
-      "Estate Planning Advice",
-      "Ongoing Financial Monitoring",
+      <div key="1">
+        <strong>Personalized Budgeting Plans</strong>
+        <br />
+        Create tailored monthly and annual budgets that align with your income,
+        goals, and lifestyle to promote disciplined, confident spending and
+        saving habits.
+      </div>,
+      <div key="2">
+        <strong>Investment Portfolio Alignment</strong>
+        <br />
+        Strategically structure your investments to match your financial goals,
+        risk tolerance, and time horizon for optimized growth and stability.
+      </div>,
+      <div key="3">
+        <strong>Estate Planning Advice</strong>
+        <br />
+        Receive expert guidance on wills, trusts, and wealth transfer strategies
+        to ensure your assets are protected and distributed according to your
+        wishes.
+      </div>,
+      <div key="4">
+        <strong>Ongoing Financial Monitoring</strong>
+        <br />
+        Regularly track and adjust your financial plan with professional
+        insights to keep you on course through life changes and market shifts.
+      </div>,
     ],
+
     ctaText: "Start Planning",
   },
   {
@@ -45,11 +68,32 @@ const services = [
     description:
       "PROTECT your income, health, and assets with carefully selected insurance solutions and proactive risk mitigation strategies tailored to your personal situation.",
     features: [
-      "Income Protection Solutions",
-      "Health and Life Insurance Plans",
-      "Asset Protection Strategies",
-      "Risk Mitigation Consultations",
+      <div key="1">
+        <strong>Income Protection Solutions</strong>
+        <br />
+        Safeguard your earnings during illness or disability with income
+        replacement plans.
+      </div>,
+      <div key="2">
+        <strong>Health and Life Insurance Plans</strong>
+        <br />
+        Customized coverage to support your medical needs and secure your
+        family’s future.
+      </div>,
+      <div key="3">
+        <strong>Asset Protection Strategies</strong>
+        <br />
+        Legal and financial tools designed to defend your wealth from lawsuits
+        and creditors.
+      </div>,
+      <div key="4">
+        <strong>Risk Mitigation Consultations</strong>
+        <br />
+        Expert guidance to identify vulnerabilities and reduce exposure to
+        financial risks.
+      </div>,
     ],
+
     ctaText: "Protect Yourself",
   },
   {
@@ -58,11 +102,34 @@ const services = [
     description:
       "PLAN for your children’s education, growing family needs, and long-term support systems with structured and practical financial roadmaps.",
     features: [
-      "Education Fund Setup",
-      "Family Financial Roadmaps",
-      "Support System Structuring",
-      "Long-term Care Planning",
+      <div key="1">
+        <strong>Education Fund Setup</strong>
+        <br />
+        Plan and allocate resources effectively for your children’s or
+        dependents’ education, using tax-efficient savings vehicles and
+        long-term strategies.
+      </div>,
+      <div key="2">
+        <strong>Family Financial Roadmaps</strong>
+        <br />
+        Develop comprehensive plans that guide your family’s financial
+        decisions, from daily budgeting to long-term wealth-building and legacy
+        goals.
+      </div>,
+      <div key="3">
+        <strong>Support System Structuring</strong>
+        <br />
+        Organize financial support for dependents, aging parents, or special
+        needs family members with clarity, sustainability, and care in mind.
+      </div>,
+      <div key="4">
+        <strong>Long-term Care Planning</strong>
+        <br />
+        Prepare for potential future healthcare needs with strategies to manage
+        costs, protect assets, and ensure quality of life as you age.
+      </div>,
     ],
+
     ctaText: "Plan for Family",
   },
   {
@@ -71,11 +138,33 @@ const services = [
     description:
       "GROW your wealth using disciplined, data-driven investment strategies that reflect your risk tolerance and long-term financial goals.",
     features: [
-      "Risk Tolerance Assessment",
-      "Diversified Portfolio Building",
-      "Market Trend Analysis",
-      "Periodic Portfolio Reviews",
+      <div key="1">
+        <strong>Risk Tolerance Assessment</strong>
+        <br />
+        Evaluate your comfort with market fluctuations to tailor an investment
+        strategy that aligns with your financial goals and personal risk
+        profile.
+      </div>,
+      <div key="2">
+        <strong>Diversified Portfolio Building</strong>
+        <br />
+        Construct a balanced investment portfolio across asset classes to
+        minimize risk and enhance long-term returns.
+      </div>,
+      <div key="3">
+        <strong>Market Trend Analysis</strong>
+        <br />
+        Monitor economic indicators and market movements to inform proactive
+        investment decisions and uncover new opportunities.
+      </div>,
+      <div key="4">
+        <strong>Periodic Portfolio Reviews</strong>
+        <br />
+        Conduct regular check-ins to adjust your investment strategy as your
+        life circumstances, market conditions, and goals evolve.
+      </div>,
     ],
+
     ctaText: "Invest Wisely",
   },
   {
@@ -84,11 +173,32 @@ const services = [
     description:
       "DESIGN a retirement lifestyle plan with sustainable income streams, tax efficiency, and peace of mind for your golden years.",
     features: [
-      "Retirement Income Modeling",
-      "Tax-efficient Withdrawal Plans",
-      "Sustainable Income Strategies",
-      "Peace of Mind Consulting",
+      <div key="1">
+        <strong>Retirement Income Modeling</strong>
+        <br />
+        Forecast your retirement income needs and sources to ensure you can
+        maintain your lifestyle throughout your retirement years.
+      </div>,
+      <div key="2">
+        <strong>Tax-efficient Withdrawal Plans</strong>
+        <br />
+        Structure your withdrawals from various accounts to minimize taxes and
+        extend the longevity of your retirement savings.
+      </div>,
+      <div key="3">
+        <strong>Sustainable Income Strategies</strong>
+        <br />
+        Implement dependable income solutions such as annuities, dividends, and
+        systematic withdrawals to support a steady cash flow.
+      </div>,
+      <div key="4">
+        <strong>Peace of Mind Consulting</strong>
+        <br />
+        Gain confidence in your retirement readiness with expert advice tailored
+        to your financial situation, goals, and lifestyle aspirations.
+      </div>,
     ],
+
     ctaText: "Plan Retirement",
   },
   {
@@ -97,11 +207,33 @@ const services = [
     description:
       "ENSURE business continuity and seamless wealth transfer with tailored succession strategies and estate structuring support.",
     features: [
-      "Business Succession Plans",
-      "Estate Structuring Support",
-      "Wealth Transfer Strategies",
-      "Continuity Planning",
+      <div key="1">
+        <strong>Business Succession Plans</strong>
+        <br />
+        Prepare for a smooth ownership transition by developing strategies that
+        preserve business value and ensure leadership continuity.
+      </div>,
+      <div key="2">
+        <strong>Estate Structuring Support</strong>
+        <br />
+        Organize and optimize your estate with guidance on wills, trusts, and
+        tax considerations to protect and pass on your legacy.
+      </div>,
+      <div key="3">
+        <strong>Wealth Transfer Strategies</strong>
+        <br />
+        Create a tax-efficient plan to transfer wealth to future generations
+        while aligning with your personal, philanthropic, and family goals.
+      </div>,
+      <div key="4">
+        <strong>Continuity Planning</strong>
+        <br />
+        Safeguard your business and family’s financial future with proactive
+        plans for unexpected events, leadership changes, or economic
+        disruptions.
+      </div>,
     ],
+
     ctaText: "Secure Legacy",
   },
 ];
@@ -134,9 +266,9 @@ const HomePage = () => {
               </p>
               <button
                 onClick={() => setSelectedService(idx)}
-                className="text-sm text-[#F2C98B] underline hover:text-yellow-400 transition"
+                className="text-sm text-[#F2C98B] underline hover:text-[#Ffbf00] transition"
               >
-                Learn more
+                <b>LEARN MORE</b>
               </button>
             </div>
           ))}

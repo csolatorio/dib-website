@@ -15,7 +15,7 @@ import Footer from "../components/footer";
 const awards = [
   {
     image: award1,
-    title: "Top 4 Private Wealth Consultant – from 2017 onwards",
+    title: "Top Agency Award Private Wealth Consultant – from 2017 onwards",
     description:
       "Recognized among Singapore’s top financial professionals for performance and client impact.",
   },
