@@ -254,7 +254,7 @@ const Services: React.FC = () => {
               </p>
               <button
                 onClick={() => setSelectedService(idx)}
-                className="text-sm text-[#F2C98B] underline hover:text-[#Ffbf00] transition"
+                className="bg-[#002b3d] text-sm text-[#F2C98B] underline hover:text-[#Ffbf00] transition"
               >
                 <b>LEARN MORE</b>
               </button>
