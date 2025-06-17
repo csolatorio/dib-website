@@ -90,6 +90,12 @@ const ContactForm = () => {
                 className="w-full p-2 rounded bg-gray-100 text-black"
                 required
               />
+              <input
+                type="tel"
+                name="phone"
+                placeholder="Phone number"
+                className="w-full p-2 rounded bg-gray-100 text-black"
+              />
               <textarea
                 name="message"
                 placeholder="Message"

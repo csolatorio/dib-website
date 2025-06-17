@@ -22,7 +22,8 @@ const HeroPage = () => {
             Your Partner in Financial Confidence
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
-            Representing Prudential Assurance Company Singapore.
+            Representing Prudential Assurance Company Singapore. <br />
+            <a>www.prudential.com.sg/FC-info</a>
             <br />
             Plan smart. Live fully.
             <br /> From securing your legacy with an estate planner, structuring

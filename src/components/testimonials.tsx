@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
+import Footer from "../components/footer";
+import Navbar from "./navbar";
+
 const testimonials = [
   {
     name: "Mia Song",
@@ -73,85 +76,95 @@ const TestimonialsCarousel: React.FC = () => {
   );
 
   return (
-    <section className="py-20 px-4 max-w-7xl mx-auto" id="testimonials">
-      {/* Header + Arrows */}
-      <div className="flex justify-between items-center mb-8">
-        <div>
-          <p className="text-lg font-medium text-[#001A29]">Testimonials</p>
-          <h2 className="text-3xl font-medium text-[#001A29]">
-            What <span className="font-bold text-[#001A29]">Our Clients</span>{" "}
-            Say
-          </h2>
-        </div>
+    <div className="relative w-full min-h-screen text-white bg-[#002b3d]">
+      <div className="w-full min-h-screen bg-[#002b3d] text-white">
+        <Navbar />
 
-        <div className="flex space-x-4">
-          <button
-            onClick={handlePrev}
-            className="bg-[#F2C98B] text-[#ffffff] p-2 rounded-full shadow-sm"
-          >
-            <ChevronLeft size={20} />
-          </button>
-          <button
-            onClick={handleNext}
-            className="bg-[#F2C98B] text-white p-2 rounded-full shadow-sm"
-          >
-            <ChevronRight size={20} />
-          </button>
-        </div>
-      </div>
-
-      {/* Cards Row with Animation */}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={currentGroup}
-          initial={{ x: 100, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          exit={{ x: -100, opacity: 0 }}
-          transition={{ duration: 0.4 }}
-          className="flex justify-center gap-6 flex-wrap"
-        >
-          {visibleTestimonials.map((t, index) => (
-            <div
-              key={index}
-              className="bg-[#D9D9D9] rounded-xl shadow-md w-[400px] p-8 relative"
-            >
-              <div className="absolute top-4 right-4 text-[#F2C98B] text-xl">
-                {Array.from({ length: 5 }).map((_, i) => (
-                  <span key={i}>{i < t.rating ? "★" : "☆"}</span>
-                ))}
-              </div>
-              <Quote className="text-gray-400 w-6 h-6 mb-4" />
-              <p className="text-base text-[#001A29] mb-6">{t.content}</p>
-              <div className="flex items-center gap-4 mt-4">
-                <img
-                  src={t.image}
-                  alt={t.name}
-                  className="w-12 h-12 rounded-full object-cover"
-                />
-                <div>
-                  <p className="font-bold text-md text-[#001A29]">{t.name}</p>
-                  <p className="font-medium italic text-xs text-[#001A29]">
-                    {t.position}
-                  </p>
-                </div>
-              </div>
+        <section className="py-20 px-4 max-w-7xl mx-auto" id="testimonials">
+          {/* Header + Arrows */}
+          <div className="flex justify-between items-center mb-8">
+            <div>
+              <p className="text-lg font-medium text-[#F2C98B]">Testimonials</p>
+              <h2 className="text-3xl font-medium text-[#F2C98B]">
+                What{" "}
+                <span className="font-bold text-[#F2C98B]">Our Clients</span>{" "}
+                Say
+              </h2>
             </div>
-          ))}
-        </motion.div>
-      </AnimatePresence>
 
-      {/* Pagination */}
-      <div className="mt-8 flex justify-center space-x-2">
-        {Array.from({ length: totalGroups }).map((_, idx) => (
-          <span
-            key={idx}
-            className={`h-5 w-5 rounded-full ${
-              idx === currentGroup ? "bg-orange-300" : "bg-orange-100"
-            }`}
-          />
-        ))}
+            <div className="flex space-x-4">
+              <button
+                onClick={handlePrev}
+                className="bg-[#F2C98B] text-[#ffffff] p-2 rounded-full shadow-sm"
+              >
+                <ChevronLeft size={20} />
+              </button>
+              <button
+                onClick={handleNext}
+                className="bg-[#F2C98B] text-white p-2 rounded-full shadow-sm"
+              >
+                <ChevronRight size={20} />
+              </button>
+            </div>
+          </div>
+
+          {/* Cards Row with Animation */}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={currentGroup}
+              initial={{ x: 100, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              exit={{ x: -100, opacity: 0 }}
+              transition={{ duration: 0.4 }}
+              className="flex justify-center gap-6 flex-wrap"
+            >
+              {visibleTestimonials.map((t, index) => (
+                <div
+                  key={index}
+                  className="bg-[#D9D9D9] rounded-xl shadow-md w-[400px] p-8 relative"
+                >
+                  <div className="absolute top-4 right-4 text-[#F2C98B] text-xl">
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <span key={i}>{i < t.rating ? "★" : "☆"}</span>
+                    ))}
+                  </div>
+                  <Quote className="text-gray-400 w-6 h-6 mb-4" />
+                  <p className="text-base text-[#001A29] mb-6">{t.content}</p>
+                  <div className="flex items-center gap-4 mt-4">
+                    <img
+                      src={t.image}
+                      alt={t.name}
+                      className="w-12 h-12 rounded-full object-cover"
+                    />
+                    <div>
+                      <p className="font-bold text-md text-[#001A29]">
+                        {t.name}
+                      </p>
+                      <p className="font-medium italic text-xs text-[#001A29]">
+                        {t.position}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </motion.div>
+          </AnimatePresence>
+
+          {/* Pagination */}
+          <div className="mt-8 flex justify-center space-x-2">
+            {Array.from({ length: totalGroups }).map((_, idx) => (
+              <span
+                key={idx}
+                className={`h-5 w-5 rounded-full ${
+                  idx === currentGroup ? "bg-orange-300" : "bg-orange-100"
+                }`}
+              />
+            ))}
+          </div>
+        </section>
       </div>
-    </section>
+      <Footer />
+    </div>
   );
 };
 
