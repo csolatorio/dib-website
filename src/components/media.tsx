@@ -7,6 +7,7 @@ import {
 
 import Footer from "../components/footer";
 import Navbar from "./navbar";
+import dibPortrait from "../assets/dib.png";
 
 const socialMediaData = [
   {
@@ -56,7 +57,14 @@ export default function SocialMedia() {
                 rel="noopener noreferrer"
                 className="bg-white shadow-lg rounded-2xl p-6 flex flex-col items-center text-center transition-transform hover:scale-105"
               >
-                <div className="text-4xl mb-3">{platform.icon}</div>
+                <div className="flex items-center gap-2 mb-3">
+                  <div className="text-3xl">{platform.icon}</div>
+                  <img
+                    src={dibPortrait}
+                    alt={`${platform.name} logo`}
+                    className="h-10 w-10"
+                  />
+                </div>
                 <h3 className="text-xl font-semibold">{platform.name}</h3>
                 <p className="text-gray-600 text-sm mt-1">
                   {platform.description}
