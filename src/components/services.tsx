@@ -34,13 +34,6 @@ const services = [
         Strategically structure your investments to match your financial goals,
         risk tolerance, and time horizon for optimized growth and stability.
       </div>,
-      <div key="3">
-        <strong>Estate Planning Advice</strong>
-        <br />
-        Receive expert guidance on wills, trusts, and wealth transfer strategies
-        to ensure your assets are protected and distributed according to your
-        wishes.
-      </div>,
       <div key="4">
         <strong>Ongoing Financial Monitoring</strong>
         <br />
@@ -55,7 +48,7 @@ const services = [
     icon: <FaShieldAlt className="text-[#F2C98B] text-4xl" />,
     title: "Risk Management & Insurance",
     description:
-      "PROTECT your income, health, and assets with carefully selected insurance solutions and proactive risk mitigation strategies tailored to your personal situation.",
+      "PROTECT your income, health, and assets with carefully selected insurance solutions and proactive risk mitigation strategy tailored to your personal situation.",
     features: [
       <div key="1">
         <strong>Income Protection Solutions</strong>
@@ -70,7 +63,7 @@ const services = [
         family’s future.
       </div>,
       <div key="3">
-        <strong>Asset Protection Strategies</strong>
+        <strong>Asset Protection Strategy</strong>
         <br />
         Legal and financial tools designed to defend your wealth from lawsuits
         and creditors.
@@ -87,7 +80,7 @@ const services = [
   },
   {
     icon: <FaGraduationCap className="text-[#F2C98B] text-4xl" />,
-    title: "Education & Family Planning",
+    title: "Education & Family Coverage",
     description:
       "PLAN for your children’s education, growing family needs, and long-term support systems with structured and practical financial roadmaps.",
     features: [
@@ -96,7 +89,7 @@ const services = [
         <br />
         Plan and allocate resources effectively for your children’s or
         dependents’ education, using tax-efficient savings vehicles and
-        long-term strategies.
+        long-term strategy.
       </div>,
       <div key="2">
         <strong>Family Financial Roadmaps</strong>
@@ -114,7 +107,7 @@ const services = [
       <div key="4">
         <strong>Long-term Care Planning</strong>
         <br />
-        Prepare for potential future healthcare needs with strategies to manage
+        Prepare for potential future healthcare needs with strategy to manage
         costs, protect assets, and ensure quality of life as you age.
       </div>,
     ],
@@ -123,9 +116,9 @@ const services = [
   },
   {
     icon: <FaChartLine className="text-[#F2C98B] text-4xl" />,
-    title: "Investment Strategies",
+    title: "Investment Strategy",
     description:
-      "GROW your wealth using disciplined, data-driven investment strategies that reflect your risk tolerance and long-term financial goals.",
+      "GROW your wealth using disciplined, data-driven investment strategy that reflect your risk tolerance and long-term financial goals.",
     features: [
       <div key="1">
         <strong>Risk Tolerance Assessment</strong>
@@ -175,7 +168,7 @@ const services = [
         extend the longevity of your retirement savings.
       </div>,
       <div key="3">
-        <strong>Sustainable Income Strategies</strong>
+        <strong>Sustainable Income Strategy</strong>
         <br />
         Implement dependable income solutions such as annuities, dividends, and
         systematic withdrawals to support a steady cash flow.
@@ -194,12 +187,12 @@ const services = [
     icon: <FaLandmark className="text-[#F2C98B] text-4xl" />,
     title: "Business & Estate Planning",
     description:
-      "ENSURE business continuity and seamless wealth transfer with tailored succession strategies and estate structuring support.",
+      "ENSURE business continuity and seamless wealth transfer with tailored succession strategy and estate structuring support.",
     features: [
       <div key="1">
         <strong>Business Succession Plans</strong>
         <br />
-        Prepare for a smooth ownership transition by developing strategies that
+        Prepare for a smooth ownership transition by developing strategy that
         preserve business value and ensure leadership continuity.
       </div>,
       <div key="2">
@@ -209,7 +202,7 @@ const services = [
         tax considerations to protect and pass on your legacy.
       </div>,
       <div key="3">
-        <strong>Wealth Transfer Strategies</strong>
+        <strong>Wealth Transfer Strategy</strong>
         <br />
         Create a tax-efficient plan to transfer wealth to future generations
         while aligning with your personal, philanthropic, and family goals.
