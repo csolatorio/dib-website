@@ -63,8 +63,7 @@ const AboutMeCard: React.FC = () => {
               Qualified L1 in Financial Planning.
               <br />
               <br />
-              Beyond my professional work, I actively contribute to
-              philanthropic efforts. I serve as the Secretary of the Bengali
+              Beyond my professional work, I serve as the Secretary of the Bengali
               Association Singapore and participate in the Singapore MDRT
               committee, supporting various charitable initiatives.
               <br />
