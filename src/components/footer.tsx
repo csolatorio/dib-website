@@ -24,8 +24,8 @@ const Footer: React.FC = () => {
             Your Partner in Financial Clarity & Growth.
           </p>
           <p className="text-sm text-[#001A29] font-semibold">
-            Opinions expressed are solely in Dibyendu Haldar personal capacity and 
-            neither express the views or opinions of Prudential nor represent any 
+            Opinions expressed are solely in Dibyendu Haldar personal capacity and <br />
+            neither express the views or opinions of Prudential nor represent any <br />
             professional advice in PAC's Capacity as a PACS representative.
           </p>
         </div>
