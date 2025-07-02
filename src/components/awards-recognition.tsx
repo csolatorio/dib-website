@@ -21,49 +21,49 @@ const awards = [
   },
   {
     image: award2,
-    title: "Platinum Life Club Award",
+    title: "Platinum Life Club Award - 2022",
     description:
       "Honoring excellence in delivering long-term financial value and service to clients.",
   },
   {
     image: award3,
-    title: "Premier Award Gold",
+    title: "Premier Award Gold - 2023",
     description:
       "Earned for consistent performance, client satisfaction, and service excellence.",
   },
   {
     image: award4,
-    title: "Court of the Table Recognition",
+    title: "Court of the Table Recognition - 2022",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award5,
-    title: "Premier Silver Award",
+    title: "Premier Silver Award - 2023",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award6,
-    title: "MDRT Qualifier",
+    title: "MDRT Qualifier - 2022",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award7,
-    title: "Star Club Award",
+    title: "Star Club Award - 2024",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award8,
-    title: "MDRT Ambassador & Mentor",
+    title: "MDRT Ambassador & Mentor - 2021",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award9,
-    title: "Court of the Table",
+    title: "Court of the Table - 2023",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
