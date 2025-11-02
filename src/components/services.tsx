@@ -200,7 +200,7 @@ const services = [
         <br />
         Organize and optimize your estate with expert guidance on wills and trusts — to protect and pass on your legacy with confidence.
       </div>,
-      <div key="4">
+      <div key="3">
         <strong>Continuity Planning</strong>
         <br />
         Safeguard your business and family’s financial future with proactive
