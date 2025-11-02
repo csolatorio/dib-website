@@ -26,10 +26,11 @@ const HeroPage = () => {
             <a>www.prudential.com.sg/FC-info</a>
             <br />
             Plan smart. Live fully.
-            <br /> From securing your legacy with an estate planner, structuring
-            your future with a will planner, to growing your assets with a
-            wealth planner—we help you protect what you’ve built and prepare for
-            what’s ahead.
+            <br /> Your peace of mind is my utmost priority. 
+            I believe that every detail matters. By developing a deep understanding of your goals and priorities, 
+            I design comprehensive financial strategies that help you build, protect, 
+            and preserve your wealth — from income protection and accumulation to preservation and distribution.
+            Each plan is crafted with clarity and purpose, ensuring that you and your loved ones enjoy lasting security and confidence in every stage of life.
           </p>
           <div className="flex justify-start mt-10">
             <a
