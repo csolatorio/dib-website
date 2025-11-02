@@ -41,7 +41,7 @@ const AboutMeCard: React.FC = () => {
             <p className="text-[#c3d5df] text-base leading-relaxed text-justify">
               Over the past decade, I have turned challenges into
               opportunities, and built lasting realtionship 
-              with over 300 families in Singapore. My goal is simple -to advise 
+              with over 300 families in Singapore. My goal is simple-to advise 
               individuals and families gain financial confidence through clear,
               personalize and sustainable financial planning.
               <br />
@@ -64,36 +64,21 @@ const AboutMeCard: React.FC = () => {
               <br />
               <br />
               Beyond my professional work, I serve as the Secretary of the Bengali
-              Association Singapore and participate in the Singapore MDRT
-              committee, supporting various charitable initiatives.
+              Association Singapore and actively contribute to the MDRT Singapore
+              committee and MDRT Foundation,supporting various charitable initiatives.
               <br />
               <br />
-              My professional philosophy revolves around a balanced and
-              thoughtful approach to wealth management. I believe in setting
-              clear goals and creating comprehensive plans that cover both
-              short-term needs and long-term dreams. My strategies include wise
-              budgeting, smart investments, and regular reviews to adapt to
-              changes and ensure continued financial growth.
+              My approcah to wealth management is based on balance and clarity-setting clear goals,
+              mamaging risks wisely,and adapting strategies as life changes.
+              I take time to understand each cleint's needs and create personalised plans for budgeting,
+              investemnts, retirement and education planning, ensuring their financial journey stays secure and meaningfu.
               <br />
               <br />
-              I begin by deeply understanding each client’s unique situation,
-              goals, and preferences. I listen closely and develop customized
-              plans, which may include budgeting advice, investment strategies
-              suited to their risk tolerance, and recommendations for retirement
-              or education savings. By accounting for life stages and evolving
-              needs, I ensure my strategies remain flexible and effective.
+              Looking ahead, I aim to deepen my expertise in corporate financial planning 
+              and sustainable investing, and lead a team that delivers innovative and client-focused financial solutions.
               <br />
-              <br />
-              Looking ahead, I aspire to further specialize in estate planning
-              and sustainable investing. I envision leading a team dedicated to
-              delivering innovative financial solutions and exceptional service.
-              My ultimate goal is to be a trusted advisor who empowers clients
-              to achieve their financial goals with clarity and assurance.
-              <br />
-              <br />I am always eager to connect with like-minded professionals
-              and individuals seeking comprehensive financial planning. Let’s
-              connect and explore how I can assist you in achieving your
-              financial aspirations.
+              <br />I believe in building trust through genuine relationships and transparent advice.Let’s
+              connect and explore how I can advice you plan gorow and protect your financial future.
             </p>
           </div>
           <div className="flex space-x-4 mt-7">
