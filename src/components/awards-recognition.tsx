@@ -15,13 +15,13 @@ import Footer from "../components/footer";
 const awards = [
   {
     image: award1,
-    title: "Top Agency Award – from 2017 onwards",
+    title: "Top joe Goh Agency Award – from 2017 onwards",
     description:
       "Recognized among Singapore’s top financial professionals for performance and client impact.",
   },
   {
     image: award2,
-    title: "Platinum Life Club Award - 2022",
+    title: "Life Club Award - from 2019 onwards",
     description:
       "Honoring excellence in delivering long-term financial value and service to clients.",
   },
@@ -33,13 +33,13 @@ const awards = [
   },
   {
     image: award4,
-    title: "Court of the Table Recognition - 2022",
+    title: "Court of the Table Recognition - 2023",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award5,
-    title: "Premier Silver Award - 2023",
+    title: "Premier Award Silver - 2022 & 2024",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
@@ -51,13 +51,13 @@ const awards = [
   },
   {
     image: award7,
-    title: "Star Club Award - 2024",
+    title: "Star Club Award - from 2018 onwards",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
   {
     image: award8,
-    title: "MDRT Ambassador & Mentor - 2021",
+    title: "MDRT Ambassador & Mentor - from 2021 onwards",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
