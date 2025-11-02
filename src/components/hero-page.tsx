@@ -23,11 +23,9 @@ const HeroPage = () => {
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
             Representing Prudential Assurance Company Singapore. <br />
-            <a href= "www.prudential.com.sg/FC-info"> www.prudential.com.sg/FC-info </a>
-            
+            <a>www.prudential.com.sg/FC-info</a>
             <br />  
             Guided by Purpose. Built on Trust.
-            
             <br /> Your peace of mind is my utmost priority. 
             I take time to understand your goals and design clear,comprehensive strategies to build,protect and preserve 
             your wealth-from income protection and accumulation to preservation and distribution-ensuring lasting security for you and your loved ones.
