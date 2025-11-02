@@ -40,7 +40,7 @@ const AboutMeCard: React.FC = () => {
             <br />
             <p className="text-[#c3d5df] text-base leading-relaxed text-justify">
               Over the past decade, I have turned challenges into
-              opportunities, and built lasting realtionship 
+              opportunities, and built lasting relationship 
               with over 300 families in Singapore. My goal is simple-to advice 
               individuals and families gain financial confidence through clear,
               personalize and sustainable financial planning.
@@ -50,16 +50,16 @@ const AboutMeCard: React.FC = () => {
               Private Client Advisor since 2021,with several professional milestones 
               along the way-including being a Premier Award Qualifier since 2018,
               a Life Club Member since 2019, and receiving the 
-              Trusted Financial Practioner Award by IFPAS in 2025.
+              Trusted Financial Practitioner Award by IFPAS in 2025.
               As an MDRT Ambassador and Mentor since 2021, I remain 
               passionate about guiding clients and fellow professionals on their journey
               toward growth and success.
               <br />
               <br />
-              I specialize in asset management and risk management,and hold a 
+              I specialize in asset management and risk management and hold a 
               Post Graduate Diploma In Management in Finance and Marketing.
               I'm certified in Financial Need Analysis and Plan Construction,
-              IBF qualified L1 in Financial Planning,and an Estate Planning Practitioner Certified by 
+              IBF qualified L1 in Financial Planning and an Estate Planning Practitioner Certified by 
               Estate Planning Practitioner Limited.
               <br />
               <br />
@@ -68,17 +68,17 @@ const AboutMeCard: React.FC = () => {
               committee and MDRT Foundation,supporting various charitable initiatives.
               <br />
               <br />
-              My approcah to wealth management is based on balance and clarity-setting clear goals,
-              mamaging risks wisely,and adapting strategies as life changes.
-              I take time to understand each cleint's needs and create personalised plans for budgeting,
-              investemnts, retirement and education planning, ensuring their financial journey stays secure and meaningful.
+              My approach to wealth management is based on balance and clarity-setting clear goals,
+              managing risks wisely and adapting strategies as life changes.
+              I take time to understand each client's needs and create personalised plans for budgeting,
+              investments, retirement and education planning, ensuring their financial journey stays secure and meaningful.
               <br />
               <br />
               Looking ahead, I aim to deepen my expertise in corporate financial planning 
               and sustainable investing, and lead a team that delivers innovative and client-focused financial solutions.
               <br />
               <br />I believe in building trust through genuine relationships and transparent advice.Let’s
-              connect and explore how I can advice you plan gorow and protect your financial future.
+              connect and explore how I can advice you plan grow and protect your financial future.
             </p>
           </div>
           <div className="flex space-x-4 mt-7">
