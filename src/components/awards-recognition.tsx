@@ -45,7 +45,7 @@ const awards = [
   },
   {
     image: award6,
-    title: "MDRT Qualifier - 2022",
+    title: "MDRT Qualifier - from 2020 onwards",
     description:
       "Guiding the next generation of advisors while upholding global professional standards.",
   },
