@@ -46,20 +46,21 @@ const AboutMeCard: React.FC = () => {
               personalize and sustainable financial planning.
               <br />
               <br />
-              Consistently recognized as a top performer, I have earned multiple
-              accolades, including being one of the Top 4 Private Wealth
-              Consultants in 2022 and a Premier Award qualifier. Honored with
-              the Platinum Life Club award, I am committed to excellence in
-              financial consulting. I also serve as an MDRT Ambassador and
-              Mentor, highlighting my dedication to professional development and
-              community service.
+              I am grateful to have been Consistently recognized as a 
+              Private Client Advisor since 2021,with several professional milestones 
+              along the way-including being a Premier Award Qualifier since 2018,
+              a Life Club member since 2019, and receiving the 
+              Trusted Financial Practioner Award by IFPAS in 2025.
+              As an MDRT Ambassador and Mentor since 2021, I remain 
+              passionate about guiding clients and fellow professionals on their journey
+              toward growth and success.
               <br />
               <br />
-              I specialize in asset management and risk management, and my
-              educational background includes a Post Graduate Diploma in
-              Management with a focus on Finance & Marketing. I'm certified in
-              Financial Need Analysis and Plan Construction, and I’m IBF
-              Qualified L1 in Financial Planning.
+              I specialize in asset management and risk management,and hold a 
+              Post Graduate Diploma In Management in Finance and Marketing.
+              I'm certified in Financial Need Analysis and Plan Construction,
+              IBF qualified L1 in Financial Planning,and an Estate Planning Practitioner certified by 
+              Estate Planning Practitioner Limited.
               <br />
               <br />
               Beyond my professional work, I serve as the Secretary of the Bengali
