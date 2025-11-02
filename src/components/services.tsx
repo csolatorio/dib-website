@@ -193,19 +193,14 @@ const services = [
         <strong>Business Succession Plans</strong>
         <br />
         Prepare for a smooth ownership transition by developing strategy that
-        preserve business value and ensure leadership continuity.
+        preserve business value and ensure business continuity.
       </div>,
       <div key="2">
         <strong>Estate Structuring Support</strong>
         <br />
-        Organize and optimize your estate with guidance on wills, trusts, and
-        tax considerations to protect and pass on your legacy.
+        Organize and optimize your estate with expert guidance on wills and trusts — to protect and pass on your legacy with confidence.
       </div>,
       <div key="3">
-        <strong>Wealth Transfer Strategy</strong>
-        <br />
-        Create a tax-efficient plan to transfer wealth to future generations
-        while aligning with your personal, philanthropic, and family goals.
       </div>,
       <div key="4">
         <strong>Continuity Planning</strong>
