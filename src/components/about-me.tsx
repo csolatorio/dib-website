@@ -39,12 +39,11 @@ const AboutMeCard: React.FC = () => {
             <br />
             <br />
             <p className="text-[#c3d5df] text-base leading-relaxed text-justify">
-              Over the past nine years, I have transformed challenges into
-              opportunities, building a strong foundation of trust and loyalty
-              with over 300 families in Singapore. My approach is centered on
-              understanding the unique financial needs of each individual,
-              crafting customized plans that align with their goals for
-              sustainable growth and financial security.
+              Over the past decade, I have turned challenges into
+              opportunities, and built lasting realtionship 
+              with over 300 families in Singapore. My goal is simple -to advise 
+              individuals and families gain financial confidence through clear,
+              personalize and sustainable financial planning.
               <br />
               <br />
               Consistently recognized as a top performer, I have earned multiple
