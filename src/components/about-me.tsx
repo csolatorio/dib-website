@@ -41,15 +41,15 @@ const AboutMeCard: React.FC = () => {
             <p className="text-[#c3d5df] text-base leading-relaxed text-justify">
               Over the past decade, I have turned challenges into
               opportunities, and built lasting realtionship 
-              with over 300 families in Singapore. My goal is simple-to advise 
+              with over 300 families in Singapore. My goal is simple-to advice 
               individuals and families gain financial confidence through clear,
               personalize and sustainable financial planning.
               <br />
               <br />
-              I am grateful to have been Consistently recognized as a 
+              I am grateful to have been consistently recognized as a 
               Private Client Advisor since 2021,with several professional milestones 
               along the way-including being a Premier Award Qualifier since 2018,
-              a Life Club member since 2019, and receiving the 
+              a Life Club Member since 2019, and receiving the 
               Trusted Financial Practioner Award by IFPAS in 2025.
               As an MDRT Ambassador and Mentor since 2021, I remain 
               passionate about guiding clients and fellow professionals on their journey
@@ -59,7 +59,7 @@ const AboutMeCard: React.FC = () => {
               I specialize in asset management and risk management,and hold a 
               Post Graduate Diploma In Management in Finance and Marketing.
               I'm certified in Financial Need Analysis and Plan Construction,
-              IBF qualified L1 in Financial Planning,and an Estate Planning Practitioner certified by 
+              IBF qualified L1 in Financial Planning,and an Estate Planning Practitioner Certified by 
               Estate Planning Practitioner Limited.
               <br />
               <br />
@@ -71,7 +71,7 @@ const AboutMeCard: React.FC = () => {
               My approcah to wealth management is based on balance and clarity-setting clear goals,
               mamaging risks wisely,and adapting strategies as life changes.
               I take time to understand each cleint's needs and create personalised plans for budgeting,
-              investemnts, retirement and education planning, ensuring their financial journey stays secure and meaningfu.
+              investemnts, retirement and education planning, ensuring their financial journey stays secure and meaningful.
               <br />
               <br />
               Looking ahead, I aim to deepen my expertise in corporate financial planning 
