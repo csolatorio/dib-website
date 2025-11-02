@@ -34,7 +34,7 @@ const AboutMeCard: React.FC = () => {
               Who is <span className="text-[#f9c97b]">DIBYENDU HALDAR?</span>
             </h2>
             <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed text-[#f9c97b]">
-              Prudential Financial Advisers Singapore | Financial Adviser
+              Prudential Private Client Advisor| Master Financial Consultant
             </p>
             <br />
             <br />
