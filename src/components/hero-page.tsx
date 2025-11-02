@@ -23,7 +23,7 @@ const HeroPage = () => {
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
             Representing Prudential Assurance Company Singapore. <br />
-            <a>www.prudential.com.sg/FC-info</a>
+            <a href= "www.prudential.com.sg/FC-info"> www.prudential.com.sg/FC-info </a>
             
             <br />  
             Guided by Purpose. Built on Trust.
