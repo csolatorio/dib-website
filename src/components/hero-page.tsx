@@ -21,7 +21,7 @@ const HeroPage = () => {
           <p className="text-2xl sm:text-xl md:text-3xl font-medium">
             Your Partner in Financial Confidence
           </p>
-            Guided by Purpose. Built on Trust.
+            Plan smart. Protect well. Live fully.
             <br /> Your peace of mind is my utmost priority. 
             I take time to understand your goals and design clear,comprehensive strategies to build,protect and preserve 
             your wealth-from income protection and accumulation to preservation and distribution-ensuring lasting security 
