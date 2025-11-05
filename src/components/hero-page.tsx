@@ -21,6 +21,7 @@ const HeroPage = () => {
           <p className="text-2xl sm:text-xl md:text-3xl font-medium">
             Your Partner in Financial Confidence
           </p>
+           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
             <br />  
             Plan smart. Protect well. Live fully.
             <br /> Your peace of mind is my utmost priority. 
