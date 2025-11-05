@@ -18,7 +18,7 @@ const socialMediaData = [
     followers: "1K",
     description: "Follow us on Facebook for latest updates",
     link: "https://www.facebook.com/dibyendu.haldar.73/",
-    imgUrl:
+    imgUrl: fbprofile,
       "https://scontent.fcgy1-3.fna.fbcdn.net/v/t39.30808-6/482024034_9333942016642944_8177076313853915478_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Uj8Z6H2VnlIQ7kNvwEdTvTb&_nc_oc=AdlKOJYyPjBbTd-VTrHhpBDLo4RbVeK_vZL-Hrtp8aGRorjRrpAv1rshQRQ4E7ARr7no-XBZWRtjUPZrAT_WtLyC&_nc_zt=23&_nc_ht=scontent.fcgy1-3.fna&_nc_gid=7v7MUpQ6Bw4n7Hs5GX_txQ&oh=00_AfMRe4q76Y05YYfhkjlSzsQx1UKwvDL55VoATHZzuIMW6A&oe=6856E160",
   },
   {
