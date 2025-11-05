@@ -70,11 +70,6 @@ const Footer: React.FC = () => {
           </p>
           <p className="text-sm text-[#001A29]">+65 98393475</p>
           <p className="text-sm text-[#001A29]">
-            1 Pasir Panjang Rd
-            <br />
-            Labrador Tower #05-01V
-            <br />
-            Singapore 118479
           </p>
 
           {/* Social Media Icons */}
