@@ -20,8 +20,6 @@ const ContactForm = () => {
               <div className="flex items-start gap-3">
                 <FaMapMarkerAlt className="mt-1 text-[#F2C98B] h-8 w-auto" />
                 <p className="text-xl">     
-                </p>
-              </div>
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="mt-1 text-[#F2C98B] h-8 w-auto" />
                 <p className="text-xl">+65 9839 3475</p>
