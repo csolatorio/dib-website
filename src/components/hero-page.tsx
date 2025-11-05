@@ -25,7 +25,8 @@ const HeroPage = () => {
             Representing Prudential Assurance Company Singapore. <br />
             <a>www.prudential.com.sg/FC-info</a>
             <br />  
-            Plan smart. Protect well. Live fully. <br />  
+            Plan smart. Protect well. Live fully. <br /> 
+            
             <br /> Your peace of mind is my utmost priority. 
             I take time to understand your goals and design clear,comprehensive strategies to build,protect and preserve 
             your wealth-from income protection and accumulation to preservation and distribution-ensuring lasting security 
