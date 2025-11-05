@@ -19,7 +19,12 @@ const HeroPage = () => {
             Making a Difference to your Financial Future
           </h1>
           <p className="text-2xl sm:text-xl md:text-3xl font-medium">
-            Your Partner in Financial Confidence
+             Your Partner in Financial Confidence
+          </p>
+          <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
+            Representing Prudential Assurance Company Singapore. <br />
+            <a>www.prudential.com.sg/FC-info</a>
+            <br />  
             Plan smart. Protect well. Live fully. <br />  
             <br /> Your peace of mind is my utmost priority. 
             I take time to understand your goals and design clear,comprehensive strategies to build,protect and preserve 
