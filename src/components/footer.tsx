@@ -25,8 +25,8 @@ const Footer: React.FC = () => {
           </p>
           <p className="text-sm text-[#001A29] font-semibold">
             The opinions expressed are solely those of Dibyendu Haldar in his personal capacity<br />
-           and do not represent the views or opinions of any organization. <br />
-            This content is shared for general information only.
+            and do not represent the views or opinions of any organization.This content is shared <br />
+            for general information only.
           </p>
         </div>
 
