@@ -20,10 +20,7 @@ const HeroPage = () => {
           </h1>
           <p className="text-2xl sm:text-xl md:text-3xl font-medium">
             Your Partner in Financial Confidence
-          </p>
-           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
-            <br />  
-            Plan smart. Protect well. Live fully.
+            Plan smart. Protect well. Live fully. <br />  
             <br /> Your peace of mind is my utmost priority. 
             I take time to understand your goals and design clear,comprehensive strategies to build,protect and preserve 
             your wealth-from income protection and accumulation to preservation and distribution-ensuring lasting security 
