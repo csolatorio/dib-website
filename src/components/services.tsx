@@ -24,7 +24,7 @@ const services = [
       <div key="1">
         <strong>Personalized Budgeting Plans</strong>
         <br />
-        Create tailored monthly and annual budgets that align with your,
+        Create tailored monthly and annual budgets that align with your Income,
         goals, and lifestyle to promote disciplined, confident spending and
         saving habits.
       </div>,
