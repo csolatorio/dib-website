@@ -19,7 +19,7 @@ const HeroPage = () => {
             Making a Difference to your Financial Future
           </h1>
           <p className="text-2xl sm:text-xl md:text-3xl font-medium">
-             Your Partner in Financial Confidence
+             Your Partner in 
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
           
