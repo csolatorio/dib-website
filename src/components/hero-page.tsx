@@ -22,8 +22,8 @@ const HeroPage = () => {
              Your Partner in Financial Confidence
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
-            Representing Prudential Assurance Company Singapore. <br />
-            <a>www.prudential.com.sg/FC-info</a>
+             <br />
+            <a>
             <br />  
             Plan smart. Protect well. Live fully. <br /> 
             
