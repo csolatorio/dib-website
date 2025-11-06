@@ -22,10 +22,8 @@ const HeroPage = () => {
              Your Partner in Financial Confidence
           </p>
           <p className="mt-4 text-sm sm:text-base md:text-lg leading-relaxed">
-             <br />
-            <a>
-            <br />  
-            Plan smart. Protect well. Live fully. <br /> 
+          
+            Plan smart. Protect well. Live fully.
             
             <br /> Your peace of mind is my utmost priority. 
             I take time to understand your goals and design clear,comprehensive strategies to build,protect and preserve 
