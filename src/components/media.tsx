@@ -8,6 +8,7 @@ import {
 import Footer from "../components/footer";
 import Navbar from "./navbar";
 // import dibPortrait from "../assets/dib.png";
+import fbProfile from "../assets/igProfile.jpg";
 import igProfile from "../assets/igProfile.jpg";
 import linkProfile from "../assets/linkProfile.jpg";
 
