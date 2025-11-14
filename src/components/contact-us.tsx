@@ -16,7 +16,6 @@ const ContactForm = () => {
                 Let’s Talk About Your Goals
               </h1>
             </div>
-            
             <div className="space-y-4 text-gray-200">
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="mt-1 text-[#F2C98B] h-8 w-auto" />
