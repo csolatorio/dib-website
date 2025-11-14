@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import Navbar from "./navbar";
 import Footer from "../components/footer";
 
