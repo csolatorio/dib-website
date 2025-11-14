@@ -20,7 +20,6 @@ import {
   FaChartLine,
   FaPersonBooth,
   FaLandmark,
-  FaMapMarkerAlt,
   FaPhoneAlt,
   FaEnvelope,
 } from "react-icons/fa";
@@ -364,14 +363,6 @@ const HomePage = () => {
               </h1>
             </div>
             <div className="space-y-4 text-gray-200">
-              <div className="flex items-start gap-3">
-                <FaMapMarkerAlt className="mt-1 text-[#002b3d] h-8 w-auto" />
-                <p className="text-xl text-[#002b3d]">
-                  1 Pasir Panjang Rd Labrador Tower
-                  <br />
-                  #05-01V Singapore 118479
-                </p>
-              </div>
               <div className="flex items-center gap-3">
                 <FaPhoneAlt className="mt-1 text-[#002b3d] h-8 w-auto" />
                 <p className="text-xl text-[#002b3d]">+65 9839 3475</p>
