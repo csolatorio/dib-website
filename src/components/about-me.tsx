@@ -83,6 +83,7 @@ const AboutMeCard: React.FC = () => {
               <br />
               Dibyendu Haldar
               Representing
+              <br />
               Prudential Assurance Company Singapore
               1 Pasir Panjang Road ,05-01V Labrador Tower 
               Singapore- 118479
