@@ -79,7 +79,8 @@ const AboutMeCard: React.FC = () => {
               <br />
               <br />I believe in building trust through genuine relationships and transparent advice.Let’s
               connect and explore how I can advice you plan grow and protect your financial future.
-
+              <br />
+              <br />
               Dibyendu Haldar
               Representing
               Prudential Assurance Company Singapore
