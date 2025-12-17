@@ -56,7 +56,7 @@ const AboutMeCard: React.FC = () => {
               toward growth and success.
               <br />
               <br />
-              I specialize in asset management and risk management and hold a 
+              I specialize in asset management and financial protection strategies and hold a 
               Post Graduate Diploma In Management in Finance and Marketing.
               I'm certified in Financial Need Analysis and Plan Construction,
               IBF qualified L1 in Financial Planning and an Estate Planning Practitioner Certified by 
@@ -69,7 +69,7 @@ const AboutMeCard: React.FC = () => {
               <br />
               <br />
               My approach to wealth management is based on balance and clarity-setting clear goals,
-              managing risks wisely and adapting strategies as life changes.
+              managing profiles wisely and adapting strategies as life changes.
               I take time to understand each client's needs and create personalised plans for budgeting,
               investments, retirement and education planning, ensuring their financial journey stays secure and meaningful.
               <br />
