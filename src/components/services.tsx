@@ -19,7 +19,7 @@ const services = [
     icon: <FaClipboardList className="text-[#F2C98B] text-4xl" />,
     title: "Comprehensive Financial Planning",
     description:
-      "WE OFFER personalized, all-encompassing financial plans that adapt to your goals, lifestyle, and life stages—from budgeting to investment, estate planning with precepts and Simplywills",
+      "WE OFFER personalized, all-encompassing financial plans that adapt to your goals, lifestyle, and life stages—from budgeting to investment, estate planning with precepts and Simplywills.",
     features: [
       <div key="1">
         <strong>Personalized Budgeting Plans</strong>
