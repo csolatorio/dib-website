@@ -19,7 +19,7 @@ const services = [
     icon: <FaClipboardList className="text-[#F2C98B] text-4xl" />,
     title: "Comprehensive Financial Planning",
     description:
-      "WE CREATE personalized, all-encompassing financial plans that adapt to your goals, lifestyle, and life stages—from budgeting to investment, estate planning, and more.",
+      "WE OFFER personalized, all-encompassing financial plans that adapt to your goals, lifestyle, and life stages—from budgeting to investment, estate planning, and more.",
     features: [
       <div key="1">
         <strong>Personalized Budgeting Plans</strong>
@@ -32,7 +32,7 @@ const services = [
         <strong>Investment Portfolio Alignment</strong>
         <br />
         Strategically structure your investments to match your financial goals,
-        risk tolerance, and time horizon for optimized growth and stability.
+        Investment comfort level, and time horizon for optimized growth and stability.
       </div>,
       <div key="4">
         <strong>Ongoing Financial Monitoring</strong>
@@ -46,9 +46,9 @@ const services = [
   },
   {
     icon: <FaShieldAlt className="text-[#F2C98B] text-4xl" />,
-    title: "Risk Management & Insurance",
+    title: "Income Protection Planning",
     description:
-      "PROTECT your income, health, and assets with carefully selected insurance solutions and proactive risk mitigation strategy tailored to your personal situation.",
+      "PROTECT your income, health, and assets with carefully selected insurance solutions and proactive Income protection planning strategy tailored to your personal situation.",
     features: [
       <div key="1">
         <strong>Income Protection Solutions</strong>
@@ -69,10 +69,9 @@ const services = [
         and creditors.
       </div>,
       <div key="4">
-        <strong>Risk Mitigation Consultations</strong>
+        <strong> Consultations</strong>
         <br />
-        Expert guidance to identify vulnerabilities and reduce exposure to
-        financial risks.
+        Tailored guidance to identify financial gaps and improve overall stability.
       </div>,
     ],
 
@@ -118,20 +117,19 @@ const services = [
     icon: <FaChartLine className="text-[#F2C98B] text-4xl" />,
     title: "Investment Strategy",
     description:
-      "GROW your wealth using disciplined, data-driven investment strategy that reflect your risk tolerance and long-term financial goals.",
+      "GROW your wealth using disciplined, data-driven investment strategy that reflect your Investment comfort level and long-term financial goals.",
     features: [
       <div key="1">
-        <strong>Risk Tolerance Assessment</strong>
+        <strong>Client Investment Profile Review</strong>
         <br />
         Evaluate your comfort with market fluctuations to tailor an investment
-        strategy that aligns with your financial goals and personal risk
+        strategy that aligns with your financial goals and personal financila
         profile.
       </div>,
       <div key="2">
         <strong>Diversified Portfolio Building</strong>
         <br />
-        Construct a balanced investment portfolio across asset classes to
-        minimize risk and enhance long-term returns.
+        Design a well-balanced portfolio across asset classes to strengthen consistency and long-term performance.
       </div>,
       <div key="3">
         <strong>Market Trend Analysis</strong>
