@@ -79,6 +79,13 @@ const AboutMeCard: React.FC = () => {
               <br />
               <br />I believe in building trust through genuine relationships and transparent advice.Let’s
               connect and explore how I can advice you plan grow and protect your financial future.
+
+              Dibyendu Haldar
+              Representing
+              Prudential Assurance Company Singapore
+              1 Pasir Panjang Road ,05-01V Labrador Tower 
+              Singapore- 118479
+              HP(65)98393475 Email:dibyendu@pruadviser.com.sg
             </p>
           </div>
           <div className="flex space-x-4 mt-7">
