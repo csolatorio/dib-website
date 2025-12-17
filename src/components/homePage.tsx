@@ -41,17 +41,8 @@ const services = [
       <div key="2">
         <strong>Investment Portfolio Alignment</strong>
         <br />
-        Strategically structure your investments to match your financial goals,
-        risk tolerance, and time horizon for optimized growth and stability.
-      </div>,
+        Strategically structure your investments to match your financial goals, Investment comfort level, and time horizon for optimized growth and stability.
       <div key="3">
-        <strong>Estate Planning Advice</strong>
-        <br />
-        Receive expert guidance on wills, trusts, and wealth transfer strategies
-        to ensure your assets are protected and distributed according to your
-        wishes.
-      </div>,
-      <div key="4">
         <strong>Ongoing Financial Monitoring</strong>
         <br />
         Regularly track and adjust your financial plan with professional
