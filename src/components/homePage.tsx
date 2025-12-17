@@ -34,7 +34,7 @@ const services = [
       <div key="1">
         <strong>Personalized Budgeting Plans</strong>
         <br />
-        Create tailored monthly and annual budgets that align with your income,
+        Offer tailored monthly and annual budgets that align with your income,
         goals, and lifestyle to promote disciplined, confident spending and
         saving habits.
       </div>,
@@ -63,9 +63,9 @@ const services = [
   },
   {
     icon: <FaShieldAlt className="text-[#F2C98B] text-4xl" />,
-    title: "Risk Management & Insurance",
+    title: "Income Protection Planning",
     description:
-      "PROTECT your income, health, and assets with carefully selected insurance solutions and proactive risk mitigation strategies tailored to your personal situation.",
+      "PROTECT your income, health, and assets with carefully selected insurance solutions and proactive Income protection planning strategy tailored to your personal situation.",
     features: [
       <div key="1">
         <strong>Income Protection Solutions</strong>
@@ -86,10 +86,9 @@ const services = [
         and creditors.
       </div>,
       <div key="4">
-        <strong>Risk Mitigation Consultations</strong>
+        <strong>Income Protection Consultations</strong>
         <br />
-        Expert guidance to identify vulnerabilities and reduce exposure to
-        financial risks.
+        Tailored guidance to identify financial gaps and improve overall stability..
       </div>,
     ],
 
@@ -135,20 +134,17 @@ const services = [
     icon: <FaChartLine className="text-[#F2C98B] text-4xl" />,
     title: "Investment Strategies",
     description:
-      "GROW your wealth using disciplined, data-driven investment strategies that reflect your risk tolerance and long-term financial goals.",
+      "GROW your wealth using disciplined, data-driven investment strategy that reflect your Investment comfort level and long-term financial goals.",
     features: [
       <div key="1">
-        <strong>Risk Tolerance Assessment</strong>
+        <strong>Client Investment Profile Review</strong>
         <br />
-        Evaluate your comfort with market fluctuations to tailor an investment
-        strategy that aligns with your financial goals and personal risk
-        profile.
+        Evaluate your comfort with market fluctuations to tailor an investment strategy that aligns with your financial goals and personal financila profile.
       </div>,
       <div key="2">
         <strong>Diversified Portfolio Building</strong>
         <br />
-        Construct a balanced investment portfolio across asset classes to
-        minimize risk and enhance long-term returns.
+        Design a well-balanced portfolio across asset classes to strengthen consistency and long-term performance.
       </div>,
       <div key="3">
         <strong>Market Trend Analysis</strong>
