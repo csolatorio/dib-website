@@ -82,6 +82,8 @@ const AboutMeCard: React.FC = () => {
               <br />
               <br />
               Dibyendu Haldar
+              <br />
+              <br />
               Representing
               <br />
               Prudential Assurance Company Singapore
