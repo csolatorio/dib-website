@@ -320,7 +320,7 @@ const HomePage = () => {
             </h2>
             <p className="text-[#c3d5df] text-base leading-relaxed text-justify">
               With a background in finance and a passion for helping others, I
-              specialize in financial planning, asset and risk management,
+              specialize in financial planning, asset and financial protection strategies,
               offering trusted, transparent, and personalized service. My
               mission is to turn complex financial decisions into empowering
               opportunities that bring peace of mind and lasting results.
