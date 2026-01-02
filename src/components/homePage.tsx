@@ -42,6 +42,7 @@ const services = [
         <strong>Investment Portfolio Alignment</strong>
         <br />
         Strategically structure your investments to match your financial goals, Investment comfort level, and time horizon for optimized growth and stability.
+        </div>,
       <div key="3">
         <strong>Ongoing Financial Monitoring</strong>
         <br />
