@@ -358,7 +358,7 @@ const HomePage = () => {
               <div className="flex items-center gap-3">
                 <FaEnvelope className="mt-1 text-[#002b3d] h-8 w-auto" />
                 <p className="text-xl text-[#002b3d]">
-                  hello@dibyenduhaldar.com
+                  dibyendu@pruadviser.com.sg
                 </p>
               </div>
             </div>
@@ -370,6 +370,27 @@ const HomePage = () => {
               Have questions or ready to get started? I’d love to hear from you.
             </p>
             <form
+              By clicking the 'Submit' button below, I confirm that I have read, understood and given my consent for
+            Prudential Assurance Company Singapore and its related corporations, respective representatives, agents,
+            third party service providers, contractors and/or appointed distribution/business partners (collectively referred
+            to as “Prudential”) to collect, use, disclose and/or process my/our personal data for the purpose of contacting
+            me about products and services distributed, marketed and/or introduced by Prudential through marketing
+            activities via all channels including but not limited to SMS, Social Media, In-app Push Notification, Phone Call
+            etc and perusing my contact details which Prudential has in its records from time to time and in accordance
+            to the Prudential Data Privacy Notice, which is available at www.prudential.com.sg/Privacy-Notice.
+
+            I hereby expressly understand and agree that my given consent(s) herein do not supersede or replace any
+            other consents and/or previous consents which I may have previously given to Prudential in respect of my
+            personal data and is without prejudice to any legal rights available to Prudential to collect, use or disclose my
+            personal data.
+
+            I understand that I can refer to Prudential Data Privacy, which is available at www.prudential.com.sg/Privacy-Notice
+            for more information.
+
+            I may contact Dibyendu Haldar a representative of Prudential Assurance
+            Company Singapore at +65 98393475 on how I may access and correct my personal data or withdraw consent to the collection, 
+            use or disclosure of my personal data.”
+            
               action="https://formsubmit.co/dib.haldar@gmail.com"
               method="POST"
             >
