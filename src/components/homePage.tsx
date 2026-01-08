@@ -1,16 +1,9 @@
 import { useState } from "react";
 import HeroPage from "../components/hero-page";
 import FinancialJourneyBanner from "../components/financial-journey-banner";
-// import Services from "../components/services";
-// import AboutMeCard from "../components/about-me";
-// import ContactUs from "../components/contact-us";
-// import Awards from "../components/awards-recognition";
 import Footer from "../components/footer";
-// import TestimonialsCarousel from "../components/testimonials";
 import NewsletterSignup from "../components/newsletter";
-
 import dibPortrait from "../assets/dib.png";
-
 import { Link } from "react-router-dom";
 
 import {
@@ -369,7 +362,7 @@ const HomePage = () => {
             <p className="text-xl text-[#002b3d] mb-10">
               Have questions or ready to get started? I’d love to hear from you.
             </p>
-            <form
+            <form>
               By clicking the 'Submit' button below, I confirm that I have read, understood and given my consent for
             Prudential Assurance Company Singapore and its related corporations, respective representatives, agents,
             third party service providers, contractors and/or appointed distribution/business partners (collectively referred
