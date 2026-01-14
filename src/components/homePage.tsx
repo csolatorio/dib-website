@@ -16,7 +16,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
 } from "react-icons/fa";
-const [showConsent, setShowConsent] = useState(false);
+
 
 const services = [ 
   {
@@ -221,6 +221,7 @@ const services = [
 
 const HomePage = () => {
   const [selectedService, setSelectedService] = useState<number | null>(null);
+  const [showConsent, setShowConsent] = useState(false);
   return (
     <div className="min-h-[50vh] bg-[#EAE6DC]">
       <HeroPage />
