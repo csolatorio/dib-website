@@ -3,9 +3,10 @@ import Navbar from "./navbar";
 import Footer from "../components/footer";
 import { useState } from "react";
 
-const [showConsent, setShowConsent] = useState(false);
+
 
 const ContactForm = () => {
+  const [showConsent, setShowConsent] = useState(false);
   return (
     <div className="w-full min-h-screen bg-[#002b3d] text-white">
       <Navbar />
