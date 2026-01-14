@@ -411,7 +411,7 @@ const HomePage = () => {
                 className="w-full p-2 rounded bg-gray-100 text-black mb-4"
                 required
               ></textarea>
-              <label className="text-sm text-gray-200 leading-relaxed block">
+              <label className="text-sm text-black mb-4 leading-relaxed block">
                 <input
                   type="checkbox"
                   id="agree"
