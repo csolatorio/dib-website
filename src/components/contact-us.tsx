@@ -120,7 +120,7 @@ const ContactForm = () => {
 </label>
 
 {showConsent && (
-  <div className="text-sm text-black mb-6 leading-relaxed bg-gray-100 p-4 rounded-lg max-h-64 overflow-y-auto">
+  <div className="text-sm text-white mb-6 leading-relaxed bg-gray-100 p-4 rounded-lg max-h-64 overflow-y-auto">
     <p>
       By clicking the &quot;Submit&quot; button below, I confirm that I have read,
       understood and given my consent for Prudential Assurance Company Singapore
