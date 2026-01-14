@@ -16,9 +16,9 @@ import {
   FaPhoneAlt,
   FaEnvelope,
 } from "react-icons/fa";
+const [showConsent, setShowConsent] = useState(false);
 
-const services = [
-  const [showConsent, setShowConsent] = useState(false);
+const services = [ 
   {
     icon: <FaClipboardList className="text-[#F2C98B] text-4xl" />,
     title: "Comprehensive Financial Planning",
