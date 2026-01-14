@@ -362,7 +362,7 @@ const HomePage = () => {
             <p className="text-xl text-[#002b3d] mb-10">
               Have questions or ready to get started? I’d love to hear from you.
             </p>
-            <form>
+            <form
               action="https://formsubmit.co/dib.haldar@gmail.com"
               method="POST"
             >
