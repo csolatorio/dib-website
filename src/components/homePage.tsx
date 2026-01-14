@@ -411,6 +411,26 @@ const HomePage = () => {
                 className="w-full p-2 rounded bg-gray-100 text-black mb-4"
                 required
               ></textarea>
+              <label className="text-sm text-gray-200 leading-relaxed block">
+                <input
+                  type="checkbox"
+                  id="agree"
+                  name="agree"
+                  required
+                  className="mr-2"
+                />
+                By clicking the "Submit" button below, I confirm that I have read,
+                understood, and given my consent for Prudential Assurance Company
+                Singapore and its related corporations to collect, use, and
+                disclose my personal data for marketing and communication
+                purposes.
+                <br />
+                I understand that I can refer to the Prudential Data Privacy
+                Notice at www.prudential.com.sg/Privacy-Notice.
+                <br />
+                I may contact Dibyendu Haldar at +65 98393475 for inquiries or to
+                withdraw consent.
+              </label>
               <button
                 type="submit"
                 className="bg-[#FFBF00] hover:bg-yellow-500 text-[#002b3d] font-semibold py-3 px-10 rounded-xl"
