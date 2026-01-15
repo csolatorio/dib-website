@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             The opinions expressed are solely those of Dibyendu Haldar in his personal capacity<br />
             and do not represent the views or opinions of any organization.This content is shared <br />
             for general information only.
-          </p>p> Approval Code-AT15Jan26MB52
+          </p> Approval Code-AT15Jan26MB52
           </p>
         </div>
 
