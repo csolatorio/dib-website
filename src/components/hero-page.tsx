@@ -26,7 +26,6 @@ const HeroPage = () => {
             I take time to understand your goals and design clear,comprehensive strategies to build,protect and preserve 
             your wealth-from income protection and accumulation to preservation and distribution-ensuring lasting security 
             for you and your loved ones. 
-            <br /> Approval Code-AT15Jan26MB52
           </p>
           <div className="flex justify-start mt-10">
             <a
